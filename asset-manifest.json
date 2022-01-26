@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Bs_group_Live_project/static/css/main.03290b6c.css",
+    "main.js": "/Bs_group_Live_project/static/js/main.ce9fe806.js",
+    "static/js/787.55e15f64.chunk.js": "/Bs_group_Live_project/static/js/787.55e15f64.chunk.js",
+    "static/media/logoGif.gif": "/Bs_group_Live_project/static/media/logoGif.4786e1105032cd796d47.gif",
+    "static/media/HomeVector1.png": "/Bs_group_Live_project/static/media/HomeVector1.e216551b1ce9f9d336e6.png",
+    "static/media/Muli-Black.ttf": "/Bs_group_Live_project/static/media/Muli-Black.dbb1dc4f5176246c7cb1.ttf",
+    "static/media/AboutUsImg.png": "/Bs_group_Live_project/static/media/AboutUsImg.ade4ecc8322a4da8f9e1.png",
+    "static/media/Logo2Video.webp": "/Bs_group_Live_project/static/media/Logo2Video.4cc3bb500bbb44bd44af.webp",
+    "static/media/LandingBack.png": "/Bs_group_Live_project/static/media/LandingBack.c8ac454509ce7f8595a9.png",
+    "static/media/BsLogo.png": "/Bs_group_Live_project/static/media/BsLogo.0a06fe453aeb16f24e83.png",
+    "index.html": "/Bs_group_Live_project/index.html",
+    "static/media/left.svg": "/Bs_group_Live_project/static/media/left.f3619997a928becd29fd.svg",
+    "static/media/right.svg": "/Bs_group_Live_project/static/media/right.572aedcd367242464752.svg",
+    "main.03290b6c.css.map": "/Bs_group_Live_project/static/css/main.03290b6c.css.map",
+    "main.ce9fe806.js.map": "/Bs_group_Live_project/static/js/main.ce9fe806.js.map",
+    "787.55e15f64.chunk.js.map": "/Bs_group_Live_project/static/js/787.55e15f64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03290b6c.css",
+    "static/js/main.ce9fe806.js"
+  ]
+}
