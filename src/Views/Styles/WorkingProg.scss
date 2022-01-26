@@ -1,0 +1,86 @@
+:root {
+    --gray: #4C4C53;
+    --white: #ffffff;
+    --lightgray: #797979;
+    --buttonColor: #0181D9;
+    --Blue: #0181D9;
+    --bgTransparent: #0183d93a;
+    --borderColor: #d1d1d1;
+
+}
+
+// font Sizes   
+:root {
+    --SubHeaddingSize: 1rem;
+    --TittlePeraSize: .9rem;
+    --PeraFontWeight: 600;
+}
+
+.mainWorkingSection {
+    padding-top: 80px;
+
+    .WorkingHeading {
+        color: var(--Blue);
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    // D:\Bs Group projects\Bs Group New Project\bs-group-new-website\src\images\workProgress4.png
+    .SubHeadding {
+        text-align: center;
+        font-size: var(--SubHeaddingSize);
+        color: var(--gray);
+        text-transform: capitalize;
+    }
+}
+
+.Designclass {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    margin-top: 80px;
+
+    .WorkingCardMainDesign {
+
+        width: 250px;
+        text-align: center;
+        cursor: pointer;
+
+        img {
+            width: 90%;
+        }
+        h2{
+            color: var(--gray);
+        }
+        p{
+            color: var(--gray);
+            font-size: var(--TittlePeraSize);
+            text-transform: capitalize;
+        }
+    }
+
+    section:nth-child(2),
+    section:nth-child(4) {
+        // position: relative;
+        // top: 80px;
+        margin-top: 80px;
+    }
+}
+
+@media(max-width:700px) {
+    .Designclass {
+
+        section:nth-child(2),
+        section:nth-child(4) {
+            // position: relative;
+            // top: 0px;
+            margin-top: 0px;
+        }
+
+    }
+}

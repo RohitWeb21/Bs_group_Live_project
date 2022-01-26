@@ -1,0 +1,86 @@
+:root {
+    --gray: #4C4C53;
+    --lightgray: #797979;
+    --white: #ffffff;
+    --buttonColor: #0181D9;
+    --Blue: #0181D9;
+    --bgTransparent: #0183d93a;
+    --borderColor: #d1d1d1;
+}
+
+
+:root {
+    --SubHeaddingSize: 1rem;
+    --TittlePeraSize: .9rem;
+    --PeraFontWeight: 600;
+}
+
+.ChooseUSMainSection {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    article {
+        h2 {
+            color: var(--Blue);
+        }
+
+        h3 {
+            color: var(--lightgray);
+        }
+
+        ul {
+            margin-top: 50px;
+            list-style: none;
+            color: var(--gray);
+            font-size: var(--TittlePeraSize);
+            text-transform: capitalize;
+
+            li {
+                margin-top: 10px;
+            }
+
+            li::before {
+                content: "\2022";
+                color: var(--Blue);
+                font-weight: bold;
+                display: inline-block;
+                width: 1.5rem;
+                margin-left: -1.5em;
+            }
+        }
+
+        .DiscoverMoreBtn {
+            padding: 8px 15px;
+            text-decoration: none;
+            color: #fff;
+            border: none;
+            outline: none;
+            background-color: var(--buttonColor);
+            text-align: center;
+            font-weight: 700;
+            border-radius: 25px;
+            font-size: 1.3rem;
+            margin-left: 30px;
+            margin-top: 50px;
+        }
+
+        .DiscoverMoreBtn:hover {
+            background-color: #000000;
+            color: var(--Blue);
+
+
+        }
+
+    }
+
+    figure {
+        margin-top: 30px;
+    }
+
+    figure>div>div:nth-child(2) {
+        margin-top: 50px;
+    }
+}

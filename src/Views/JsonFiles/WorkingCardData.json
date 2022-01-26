@@ -1,0 +1,34 @@
+{ "WorkingCard": [
+    {
+        "id":"5",
+        "image":"./images/workProgress1.png",
+        "cardName":"Concept",
+        "link":"#",
+        "tittle":"Its a long established fact that will be distracted by the page when looking."
+     
+     },
+    {
+        "id":"6",
+        "image":"./images/workProgress2.png",
+        "cardName":"Budget",
+        "link":"#",
+        "tittle":"Its a long established fact that will be distracted by the page when looking."
+      
+     },
+    {
+        "id":"7",
+        "image":"./images/workProgress3.png",
+        "cardName":"Development",
+        "link":"#",
+        "tittle":"Its a long established fact that will be distracted by the page when looking."
+        
+     },
+    {
+        "id":"8",
+        "image":"./images/workProgress4.png",
+        "cardName":"Result",
+        "link":"#",
+        "tittle":"Its a long established fact that will be distracted by the page when looking."
+       
+     }
+] }

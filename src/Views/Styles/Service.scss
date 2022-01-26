@@ -1,0 +1,119 @@
+:root {
+    --gray: #4C4C53;
+    --lightgray: #797979;
+    --white: #ffffff;
+    --buttonColor: #0181D9;
+    --Blue: #0181D9;
+    --bgTransparent: #0183d93a;
+    --borderColor: #d1d1d1;
+}
+
+:root {
+    --peraSize: .9rem;
+    --peraFontWeight: 600;
+}
+
+.mainSection {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+    .Services_Headings {
+        width: 100%;
+        height: auto;
+        text-transform: capitalize;
+        text-align: center;
+        padding-bottom: 50px;
+
+        // h2:nth-child(1) {
+        //     font-size: 2.5rem;
+        //     font-weight: 300;
+        //     color: var(--Blue);
+        // }
+        h2:nth-child(1) {
+            color: var(--Blue);
+            font-size: 3rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        h3:nth-child(2) {
+            color: var(--lightgray);
+            font-weight: 500;
+            font-size: 2.2rem;
+            word-spacing: 15px;
+        }
+    }
+
+
+    // Service Card scss
+
+  
+
+    // img_article start
+    .main_article_section {
+        box-shadow: 3px 3px 3px var(--borderColor);
+
+        h2 {
+            text-align: center;
+            margin-bottom: 50px;
+            color: var(--gray);
+        }
+
+        .img_article {
+            margin: 0 auto;
+
+            img {
+                width: 100%;
+                position: relative;
+                top: -50px;
+
+                // margin-bottom: 20px;
+                margin-right: 50px;
+            }
+        }
+
+        article {
+            padding-left: 15px;
+
+            p {
+                text-transform: capitalize;
+                font-size: var(--peraSize);
+                color: var(--gray);
+                margin-bottom: 50px;
+                font-weight: var(--peraFontWeight);
+            }
+        }
+    }
+
+}
+
+@media(max-width:700px) {
+    .img_article {
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+            position: relative;
+            top: -50px;
+
+            // margin-bottom: 20px;
+            margin-right: 50px;
+        }
+    }
+
+    .main_article_section {
+        box-shadow: none !important;
+
+        h2 {
+            text-align: center;
+            margin-bottom: 50px;
+            color: var(--gray);
+            font-size: 2rem;
+        }
+    }
+}

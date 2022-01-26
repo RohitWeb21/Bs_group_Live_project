@@ -1,0 +1,257 @@
+:root {
+    --gray: #4C4C53;
+    --lightgray: #797979;
+    --white: #ffffff;
+    --buttonColor: #0181D9;
+    --Blue: #0181D9;
+    --bgTransparent: #0183d93a;
+    --borderColor: #d1d1d1;
+}
+
+:root {
+    --peraSize: .9rem;
+    --peraFontWeight: 600;
+}
+
+.RecentWorksMain {
+ margin-bottom: 80px;
+
+    article {
+       
+        h2 {
+            color: var(--Blue);
+            font-size: 3rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        p {
+            text-transform: capitalize;
+            font-size: var(--peraSize);
+            color: var(--gray);
+            margin-bottom: 50px;
+            font-weight: var(--peraFontWeight);
+            text-align: center;
+        }
+    }
+}
+
+.carousel-inner{
+    height: 80vh;
+}
+
+
+.card1,
+.card2,
+.card3 {
+    height: 80vh;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+    border-radius: 25px;
+}
+
+.card1 {
+    background: url("https://media.istockphoto.com/photos/global-network-concept-picture-id1005148228?k=20&m=1005148228&s=612x612&w=0&h=rRLyMDiIyJMlQS9tIu8t8RS6LrB0lIJc5jnksTZi9ic=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+
+    h3 {
+        margin: 50px 0px 0px 10%;
+        color: #fff;
+    }
+
+    div {
+        position: absolute;
+        bottom: 20px;
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        p {
+            width: 80%;
+            text-align: center;
+            color: #ffffff;
+
+        }
+
+        .DiscoverMoreBtn {
+            padding: 8px 15px;
+            text-decoration: none;
+            color: #fff;
+            border: none;
+            outline: none;
+            background-color: var(--buttonColor);
+            text-align: center;
+            font-weight: 700;
+            border-radius: 25px;
+            font-size: 1.3rem;
+           text-align: center;
+        }
+
+        .DiscoverMoreBtn:hover {
+           color: #000000;
+           background-color: var(--Blue);
+
+
+        }
+    }
+
+}
+
+.card2 {
+    background: url("https://media.istockphoto.com/photos/digital-marketing-concept-online-advertisement-picture-id1284549946?b=1&k=20&m=1284549946&s=170667a&w=0&h=DaMSS8u0nwYARehKE5DoEdjTPy96UQJ_B3LMRWnhBUY=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h3 {
+        margin: 50px 0px 0px 10%;
+        color: #fff;
+    }
+
+    div {
+        position: absolute;
+        bottom: 20px;
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        p {
+            width: 80%;
+            text-align: center;
+            color: #ffffff;
+
+        }
+
+        .DiscoverMoreBtn {
+            padding: 8px 15px;
+            text-decoration: none;
+            color: #fff;
+            border: none;
+            outline: none;
+            background-color: var(--buttonColor);
+            text-align: center;
+            font-weight: 700;
+            border-radius: 25px;
+            font-size: 1.3rem;
+           text-align: center;
+        }
+
+        .DiscoverMoreBtn:hover {
+           color: #000000;
+           background-color: var(--Blue);
+
+
+        }
+    }
+}
+
+.card3 {
+    background: url("https://media.istockphoto.com/photos/businessman-draws-increase-arrow-graph-corporate-future-growth-year-picture-id1333810802?b=1&k=20&m=1333810802&s=170667a&w=0&h=xGeydMpkTI42HVNQppcN4nYPES-5GyTh9oCd7mZwWU8=");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h3 {
+        margin: 50px 0px 0px 10%;
+        color: #fff;
+    }
+
+    div {
+        position: absolute;
+        bottom: 20px;
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        p {
+            width: 80%;
+            text-align: center;
+            color: #ffffff;
+
+        }
+
+        .DiscoverMoreBtn {
+            padding: 8px 15px;
+            text-decoration: none;
+            color: #fff;
+            border: none;
+            outline: none;
+            background-color: var(--buttonColor);
+            text-align: center;
+            font-weight: 700;
+            border-radius: 25px;
+            font-size: 1.3rem;
+           text-align: center;
+        }
+
+        .DiscoverMoreBtn:hover {
+           color: #000000;
+           background-color: var(--Blue);
+
+
+        }
+    }
+}
+
+.carousel-control-prev-icon {
+    width: 4rem;
+    height: 4rem;
+    background-image: url("../../images/left.svg") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.5rem;
+    opacity: .8;
+    background-color: rgba(247, 247, 247, 0.466);
+    border-radius: 50%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-position-x: 1rem;
+  
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon {
+
+    background-color: rgb(247, 247, 247);
+    opacity: 1;
+}
+
+.carousel-control-next-icon {
+    width: 4rem;
+    height: 4rem;
+    background-image: url("../../images/right.svg") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.5rem;
+    opacity: .8;
+    background-color: rgba(247, 247, 247, 0.466);
+    border-radius: 50%;
+    background-position-x: 1.5rem;
+   
+}
+
+.carousel-control-next:hover .carousel-control-next-icon {
+
+    background-color: rgb(247, 247, 247);
+    opacity: 1;
+}
+@media(max-width:700px){
+    .carousel-control-prev-icon {
+        width: 4rem;
+        height: 4rem;
+       border-radius: 10px;
+       background-position-x: none;
+    }
+    .carousel-control-next-icon {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 10px;
+        background-position-x: none;
+    }
+}

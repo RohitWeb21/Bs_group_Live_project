@@ -1,0 +1,13 @@
+   
+    @font-face {
+        font-family: 'Muli_Black';
+        font-style: normal;
+        font-weight: normal;
+        src:url('./fontsFiles/Muli-Black.ttf') ;
+        }
+        
+
+
+body{
+ font-family: Muli_Black,Verdana, Geneva, Tahoma, sans-serif ;
+}

@@ -1,0 +1,110 @@
+// colors
+
+:root {
+    --gray: #4C4C53;
+    --white: #ffffff;
+    --lightgray: #797979;
+    --buttonColor: #0181D9;
+    --Blue: #0181D9;
+    --bgTransparent: #0183d93a;
+    --borderColor: #d1d1d1;
+
+}
+
+// font Sizes   
+:root {
+    --peraSize: .9rem;
+    --peraFontWeight: 600;
+}
+
+.AboutUsMain {
+    h2 {text-transform: uppercase;
+        color: var(--Blue);
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: 3px;
+        margin-bottom: 50px;
+    }
+
+    section {
+        figure {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 80%;
+            }
+        }
+
+        article {
+            padding-left: 15px;
+            padding-bottom: 60px;
+
+            h2 {  text-transform: capitalize;
+                color: var(--lightgray);
+                font-weight: 500;
+                font-size: 2.2rem;
+                letter-spacing: 2px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                text-transform: capitalize;
+                font-size: var(--peraSize);
+                color: var(--gray);
+                margin-bottom: 50px;
+                font-weight: var(--peraFontWeight);
+                line-height: 1.5rem;
+            }
+
+
+            .DiscoverMoreBtn {
+                padding: 8px 15px;
+                text-decoration: none;
+                color: #fff;
+                border: none;
+                outline: none;
+                background-color: var(--buttonColor);
+                text-align: center;
+                font-weight: 700;
+                border-radius: 25px;
+                font-size: 1.3rem;
+
+            }
+
+            .DiscoverMoreBtn:hover {
+                background-color: #000000;
+                color: var(--Blue);
+
+
+            }
+
+        }
+
+    }
+
+
+}
+
+
+// button css start  
+
+
+
+
+
+@media(max-width:700px) {
+    article {
+        h2 {
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+           
+        }
+
+
+    }
+}

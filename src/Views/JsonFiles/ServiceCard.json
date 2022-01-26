@@ -1,0 +1,34 @@
+{
+    "ServiceData": [
+{
+    "id":"Card1",
+    "image":"https://www.pngmart.com/files/7/Digital-Marketing-PNG-Image.png",
+    "cardName":"Social Media Marketing",
+    "link":"#",
+    "DownArrow":"CardDownArrow1"
+},
+{
+    "id":"Card2",
+    "image":"https://www.pngmart.com/files/7/Digital-Marketing-PNG-Image.png",
+    "cardName":"Social Media Marketing",
+    "link":"#",
+    "DownArrow":"CardDownArrow2"
+},
+{
+    "id":"Card3",
+    "image":"https://www.pngmart.com/files/7/Digital-Marketing-PNG-Image.png",
+    "cardName":"Social Media Marketing",
+    "link":"#",
+    "DownArrow":"CardDownArrow3"
+},
+{
+    "id":"Card4",
+    "image":"https://www.pngmart.com/files/7/Digital-Marketing-PNG-Image.png",
+    "cardName":"Social Media Marketing",
+    "link":"#",
+    "DownArrow":"CardDownArrow4"
+}
+]
+
+}
+

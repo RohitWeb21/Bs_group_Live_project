@@ -1,0 +1,92 @@
+:root {
+    --gray: #4C4C53;
+    --lightgray: #797979;
+    --white: #ffffff;
+    --buttonColor: #0181D9;
+    --Blue: #0181D9;
+    --bgTransparent: #0183d93a;
+    --borderColor:#d1d1d1;
+}
+.MainLandingSection {
+    width: 100%;
+    height: calc(100vh - 50px);
+    background: url("../../images/LandingBack.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+
+
+    .MainArticle {
+        height: 80vh;
+        display: flex;
+        padding-left: 5%;
+        justify-content: center;
+        text-transform: capitalize;
+        flex-direction: column;
+
+        h2 {
+            font-size: 2.5rem;
+            color: #fff;
+            line-height: 3rem;
+        
+
+        }
+
+        .BookNow {
+            padding: 8px 15px;
+            text-decoration: none;
+            color: #fff;
+            // border: 1px solid gray;
+            background-color: #033b6159;
+            width: 150px;
+            text-align: center;
+            font-weight: 700;
+            border-radius: 25px;
+            font-size: 1.3rem;
+            position: relative;
+            top: 50px;
+        }
+        .BookNow:hover {
+            background-color: #000000;
+            color: var(--Blue);
+
+        }
+    }
+
+
+    figure {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 60%;
+            position: relative;
+           top: 100px;
+        }
+    }
+
+}
+@media (max-width:995px){
+    .MainArticle{
+        text-align: center;
+    }
+
+    .MainLandingSection {
+        width: 100vw;
+        height: auto;
+        background: url("../../images/LandingBack.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+    }
+@media (max-width:900px){
+
+    figure img {
+        width: 100vw;
+        position: relative;
+        top: 0px !important;
+    }
+}
