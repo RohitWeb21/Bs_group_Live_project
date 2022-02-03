@@ -6,6 +6,10 @@ import AboutUs from "./Views/AboutUs";
 import WorkingProg from "./Views/WorkingProg";
 import ChooseUs from "./Views/ChooseUs";
 import RecentWorks from "./Views/RecentWorks";
+import ContactUs from "./Views/ContactUS";
+import Footer from "./Components/Footer";
+
+
 function App() {
   return (
     <>
@@ -15,7 +19,9 @@ function App() {
       <AboutUs />
       <WorkingProg />
       <ChooseUs />
-   <RecentWorks/>
+      <RecentWorks />
+      <ContactUs />
+     <Footer/>
     </>
   );
 }
