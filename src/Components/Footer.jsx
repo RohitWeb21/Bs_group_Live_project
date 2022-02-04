@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-4 col-sm-12">
+        <div className="col-lg-5 col-md-4 col-sm-12">
           <table>
             <tbody>
               <tr>
@@ -31,10 +31,10 @@ const Footer = () => {
               </tr>
               <tr>
                 <td>
-                  <a href="#">Home</a>
+                  <a href="#LandingPage">Home</a>
                 </td>
                 <td>
-                  <a href="#">Work With Us</a>
+                  <a href="#WorkingProgress">WORKING PROGRESS</a>
                 </td>
                 <td>
                   <a href="#">Instagram</a>
@@ -42,7 +42,7 @@ const Footer = () => {
               </tr>
               <tr>
                 <td>
-                  <a href="#">Services</a>
+                  <a href="#Service">Services</a>
                 </td>
                 <td>
                   <a href="#">Career Options</a>
@@ -53,7 +53,7 @@ const Footer = () => {
               </tr>
               <tr>
                 <td>
-                  <a href="#">Choose Us</a>
+                  <a href="#ChooseUs">Choose Us</a>
                 </td>
                 <td></td>
                 <td>
@@ -63,7 +63,7 @@ const Footer = () => {
             </tbody>
           </table>
         </div>
-        <div className="col-lg-4 col-md-5 col-sm-12">
+        <div className="col-lg-3 col-md-5 col-sm-12">
           <p>Phone Number : 011-------</p>
           <p>Email : abc@gmail.com</p>
         </div>

@@ -2,7 +2,7 @@ import "./Styles/RecentWork.scss";
 function RecentWorks() {
   return (
     <>
-      <section className="container RecentWorksMain mt-5">
+      <section className="container RecentWorksMain mt-5" id="RecentWork">
         <article>
           <h2>Our Recent Works</h2>
           <p className="col-lg-7 col-sm-12 mx-auto">
@@ -25,7 +25,6 @@ function RecentWorks() {
                   Company Lorem ipsum, dolor sit amet consectetur adipisicing
                   elit. Voluptatum aperiam officia voluptates culpa. Company
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  
                 </p>
                 <button className="DiscoverMoreBtn">Discover More</button>
                 </div>
@@ -35,8 +34,7 @@ function RecentWorks() {
                 <div>
                 <p >
                   Company Lorem ipsum, dolor sit amet consectetur adipisicing
-                  elit. Voluptatum aperiam officia voluptates culpa. Company
-                  
+                  elit. Voluptatum aperiam officia voluptates culpa. Company                 
                   aperiam officia voluptates culpa.
                 </p>
                 <button className="DiscoverMoreBtn">Discover More</button>

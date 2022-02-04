@@ -59,6 +59,13 @@ footer>section>div:nth-child(1) div div {
 footer>section>div:nth-child(1) div div i {
     padding: 5px 10px;
     color: var(--white);
+    transition:0.6s;
+}
+footer>section>div:nth-child(1) div div i:hover {
+   
+    position: relative;
+    bottom: 5px;
+    color: var(--DarkBlue);
 }
 
 
@@ -79,9 +86,10 @@ footer>section>div:nth-child(2) {
 
 footer>section>div:nth-child(2)>table>tbody>tr td {
 
-    padding-left: 10px;
+    padding-left: 20px;
     text-align: center;
 }
+
 
 footer>section>div:nth-child(2)>table>tbody>tr>td h4 {
     color: #fff;
@@ -92,15 +100,15 @@ footer>section>div:nth-child(2)>table>tbody>tr>td a {
     text-decoration: none;
     color: var(--Morelightgray);
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-weight: 600;
 }
 
 footer>section>div:nth-child(2)>table>tbody>tr>td a:hover {
-    color: var(--white);
+    color: var(--DarkBlue);
 }
 
 footer>section>div:nth-child(2)>table>tbody>tr>td a:active {
-    color: var(--SomeBlue);
+    color: var(--white);
 }
 
 

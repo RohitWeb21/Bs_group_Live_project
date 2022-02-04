@@ -6,7 +6,7 @@ const WorkingProg = () => {
   const [workCardData, setWorkCardData] = useState(WorkCardData.WorkingCard);
   return (
     <>
-      <section className="mainWorkingSection">
+      <section className="mainWorkingSection" id="WorkingProgress">
         <h2 className="WorkingHeading">Our Working Progress</h2>
         <p className="SubHeadding col-lg-5 col-sm-10 text-center mx-auto">
           Lorem ipsum dolor sit amat, consecrator advising elite, sed do

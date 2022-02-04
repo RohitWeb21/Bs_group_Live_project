@@ -1,7 +1,7 @@
 import "./Styles/ChooseUs.scss";
 const ChooseUs = () => {
   return (
-    <><section className="container ">
+    <><section className="container "id="ChooseUs">
       <section className=" ChooseUSMainSection">
         <article className="col-lg-7 col-sm-12 ">
           <h2>Why Choose Us ?</h2>

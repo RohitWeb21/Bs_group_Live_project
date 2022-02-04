@@ -3,7 +3,7 @@ import HomeVector from "../images/HomeVector1.png";
 const LandingPage = () => {
   return (
     <>
-      <section className="MainLandingSection ">
+      <section className="MainLandingSection " id="LandingPage">
         <section className="d-flex flex-wrap">
           <article className="col-lg-6 col-md-12 MainArticle">
             <h2>

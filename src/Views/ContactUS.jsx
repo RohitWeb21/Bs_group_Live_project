@@ -11,7 +11,7 @@ function ContactUS() {
   const EmailHandel = (e) => {
     e.preventDefault();
 
-    if (saveEmail == "") {
+    if (!saveEmail.trim()) {
       FullEmail.innerHTML = "Email Is Required";
       console.log("Email IS required");
     } else if (
@@ -39,7 +39,7 @@ function ContactUS() {
   }
 
   return (
-    <section className="ContactUsMain">
+    <section className="ContactUsMain" id="Contact">
       <h2>What Our Clients Say</h2>
       <div className="container d-flex flex-wrap">
         <figure className="col-lg-6 col-sm-12">

@@ -37,11 +37,11 @@ const Navbar = () => {
         {/* <video src={Logo2Video} autoPlay className="logo" /> */}
 
           <div className="Main_menu">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Service</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact </a>
+            <a href="#LandingPage">Home</a>
+            <a href="#About">About</a>
+            <a href="#Service">Service</a>
+            <a href="#Blog">Blog</a>
+            <a href="#Contact">Contact </a>
           </div>
           <div className="page_menu" onClick={toggleMenu}>
             <div className="page_menu_button">

@@ -4,7 +4,7 @@ import "./Styles/AboutUS.scss";
 const AboutUs = () => {
   return (
     <>
-      <section className="container AboutUsMain">
+      <section className="container AboutUsMain" id="About">
         <h2 className="text-center">About Us</h2>
         <section className=" d-flex flex-wrap ">
           <figure className=" col-lg-4 col-md-12">

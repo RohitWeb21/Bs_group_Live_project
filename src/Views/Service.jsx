@@ -122,7 +122,7 @@ const Service = () => {
 
   return (
     <>
-      <section className=" mainSection">
+      <section className=" mainSection" id="Service">
         <section className="Services_Headings">
           <h2>service</h2>
           <h3>what we offer</h3>
