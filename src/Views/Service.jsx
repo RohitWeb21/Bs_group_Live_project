@@ -163,7 +163,7 @@ const Service = () => {
               >
                 <img
                   src={res.image}
-                  alt="Digital Marketing"
+                  alt={res.alt}
                   id={res.id}
                   onClick={DataChange}
                 />

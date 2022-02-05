@@ -2,30 +2,34 @@
     "ServiceData": [
 {
     "id":"Card1",
-    "image":"https://www.pngmart.com/files/7/Digital-Marketing-PNG-Image.png",
+    "image":"./images/smm.png",
     "cardName":"Social Media Marketing",
     "link":"#",
+    "alt":"Social Media Marketing",
     "DownArrow":"CardDownArrow1"
 },
 {
     "id":"Card2",
-    "image":"https://www.pngmart.com/files/7/Digital-Marketing-PNG-Image.png",
+    "image":"./images/workProgress1.png",
     "cardName":"Graphic designing",
     "link":"#",
+    "alt":"Graphic designing",
     "DownArrow":"CardDownArrow2"
 },
 {
     "id":"Card3",
-    "image":"https://www.pngmart.com/files/7/Digital-Marketing-PNG-Image.png",
+    "image":"./images/websitedesigning.png",
     "cardName":"Web Development",
     "link":"#",
+    "alt":"Web Development",
     "DownArrow":"CardDownArrow3"
 },
 {
     "id":"Card4",
-    "image":"https://www.pngmart.com/files/7/Digital-Marketing-PNG-Image.png",
+    "image":"./images/brand.png",
     "cardName":"Brand Management",
     "link":"#",
+    "alt":"Brand Management",
     "DownArrow":"CardDownArrow4"
 }
 ]
