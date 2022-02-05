@@ -10,21 +10,21 @@
 {
     "id":"Card2",
     "image":"https://www.pngmart.com/files/7/Digital-Marketing-PNG-Image.png",
-    "cardName":"Social Media Marketing",
+    "cardName":"Graphic designing",
     "link":"#",
     "DownArrow":"CardDownArrow2"
 },
 {
     "id":"Card3",
     "image":"https://www.pngmart.com/files/7/Digital-Marketing-PNG-Image.png",
-    "cardName":"Social Media Marketing",
+    "cardName":"Web Development",
     "link":"#",
     "DownArrow":"CardDownArrow3"
 },
 {
     "id":"Card4",
     "image":"https://www.pngmart.com/files/7/Digital-Marketing-PNG-Image.png",
-    "cardName":"Social Media Marketing",
+    "cardName":"Brand Management",
     "link":"#",
     "DownArrow":"CardDownArrow4"
 }
