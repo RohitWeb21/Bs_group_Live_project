@@ -40,7 +40,8 @@ const Navbar = () => {
             <a href="#LandingPage">Home</a>
             <a href="#About">About</a>
             <a href="#Service">Service</a>
-            <a href="#Blog">Blog</a>
+            <a href="#Portfolio">Portfolios</a>
+            <a href="#Career">Career</a>
             <a href="#Contact">Contact </a>
           </div>
           <div className="page_menu" onClick={toggleMenu}>

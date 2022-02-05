@@ -7,9 +7,9 @@ const LandingPage = () => {
         <section className="d-flex flex-wrap">
           <article className="col-lg-6 col-md-12 MainArticle">
             <h2>
-              We Are The
-              <br /> Brilliants in term 
-              <br />of social media management
+               Get your  
+              <br />big social media  
+              <br />break-through today!
             </h2>
             <small className="text-white">
               Book Your 30-minute meeting for free strategy

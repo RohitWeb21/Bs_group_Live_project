@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Styles/ContactUs.scss";
 import WhatSay from "../images/WhatSay.png";
+import emailjs from '@emailjs/browser';
 
 function ContactUS() {
   // const [userInput, setUserInput] = useState();
@@ -23,6 +24,19 @@ function ContactUS() {
       SuccessEmailData.innerText = "Thanks For Contact Our Team ";
       SuccessEmailData.style = "display:table";
       Smile.style = "display:table";
+
+
+      // Submit Email data  after validation complete
+      emailjs.sendForm('service_okqz4qu', 'template_7iuaz5u',e.target, 'user_uzz08ZQmNe3u52TP4v57C')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+
+
+      // Set interval Function 
       setInterval(() => {
         HideSuccessMassege();
       }, 8000);
@@ -54,6 +68,7 @@ function ContactUS() {
             <div>
               <input
                 type="email"
+                name="email"
                 placeholder="Enter Email Address"
                 onChange={EmailText}
               />

@@ -2,7 +2,7 @@ import "./Styles/RecentWork.scss";
 function RecentWorks() {
   return (
     <>
-      <section className="container RecentWorksMain mt-5" id="RecentWork">
+      <section className="container RecentWorksMain mt-5" id="Portfolio">
         <article>
           <h2>Our Recent Works</h2>
           <p className="col-lg-7 col-sm-12 mx-auto">
