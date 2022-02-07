@@ -8,7 +8,7 @@ import ChooseUs from "./Views/ChooseUs";
 import RecentWorks from "./Views/RecentWorks";
 import ContactUs from "./Views/ContactUS";
 import Footer from "./Components/Footer";
-
+import Career from "./Views/Career";
 
 function App() {
   return (
@@ -20,8 +20,9 @@ function App() {
       <WorkingProg />
       <ChooseUs />
       <RecentWorks />
+      <Career />
       <ContactUs />
-     <Footer/>
+      <Footer />
     </>
   );
 }

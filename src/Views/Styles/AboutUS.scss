@@ -48,9 +48,11 @@
                 letter-spacing: 2px;
                 margin-bottom: 20px;
             }
-
+            p::first-letter {
+               text-transform: uppercase;
+            }
             p {
-                text-transform: capitalize;
+                text-transform: small;
                 font-size: var(--peraSize);
                 color: var(--gray);
                 margin-bottom: 50px;

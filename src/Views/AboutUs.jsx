@@ -15,14 +15,21 @@ const AboutUs = () => {
               We Are Here For Business Solution Ideas
             </h2>
             <p className="col-lg-10 col-md-12">
-              BS Group is a Social Media Management and Website Designing
-              Company that caters to all of your business needs. We are
-              responsible for developing, implementing, and overseeing long-term
-              Digital Marketing campaigns as well as short-term advertising
-              techniques and enhancing brand awareness, driving traffic to the
-              company's website, and generating sales leads. Our team works on
-              different areas of Web Design, including
+              BS Group works on brand core values which make a brand unique,
+              superior, differentiated, valuable and successful. We are
+              responsible for developing a brand strategy for a company's target
+              market and maintaining brand integrity across all company
+              marketing initiatives and communications, and may manage a
+              portfolio of products.
+              <br />
+              With the utmost professionalism, BS Group provide high-quality
+              designs and perfect services. For the convenience of our clients,
+              we have an active support system through which you can contact us.
+              <br />The main vision of the BS Group is "Coming together is a
+              beginning, keeping together is progress, and working together is a
+              success."
             </p>
+
             {/* button    */}
             <div>
               <button className="DiscoverMoreBtn">Discover More</button>

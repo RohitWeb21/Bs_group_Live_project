@@ -42,9 +42,6 @@
     }
 
 
-    // Service Card scss
-
-  
 
     // img_article start
     .main_article_section {
@@ -73,7 +70,7 @@
             padding-left: 15px;
 
             p {
-                text-transform: capitalize;
+                text-transform:inherit;
                 font-size: var(--peraSize);
                 color: var(--gray);
                 margin-bottom: 50px;
