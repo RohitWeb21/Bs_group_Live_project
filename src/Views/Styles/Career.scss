@@ -99,6 +99,11 @@
 //  media Query start  
 @media(max-width:"450px") {
 
+    
+    .MainCareer div .SeeMore{
+        position: relative;
+        bottom: 80px;
+    }
     .MainCareer div article div h2:nth-child(1) {
 
         line-height: 4rem;
@@ -106,7 +111,7 @@
 
     .MainCareer div article div h2:nth-child(2) {
         font-size: 1.5rem !important;
-        line-height: 0 !important;
+        line-height: .5 !important;
     }
 
     .MainCareer div article div h2:nth-child(2)>p {
