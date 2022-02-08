@@ -18,7 +18,8 @@
 }
 
 .AboutUsMain {
-    h2 {text-transform: uppercase;
+    h2 {
+        text-transform: uppercase;
         color: var(--Blue);
         font-size: 3rem;
         font-weight: 700;
@@ -33,7 +34,21 @@
             align-items: center;
 
             img {
-                width: 80%;
+                width: 100%;
+                animation: UpDown 2s infinite ease-in-out;
+position: relative;
+right: 50px;
+            }
+
+            @keyframes UpDown {
+                0%,100%{
+                    position: relative;
+                    top: 0;
+                }
+                50%{
+                    position: relative;
+                    top: 15px;
+                }
             }
         }
 
@@ -41,16 +56,19 @@
             padding-left: 15px;
             padding-bottom: 60px;
 
-            h2 {  text-transform: capitalize;
+            h2 {
+                text-transform: capitalize;
                 color: var(--lightgray);
                 font-weight: 500;
                 font-size: 2.2rem;
                 letter-spacing: 2px;
                 margin-bottom: 20px;
             }
+
             p::first-letter {
-               text-transform: uppercase;
+                text-transform: uppercase;
             }
+
             p {
                 text-transform: small;
                 font-size: var(--peraSize);
@@ -104,7 +122,7 @@
 
         div {
             text-align: center;
-           
+
         }
 
 

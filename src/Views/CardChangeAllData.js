@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import React, { useState } from "react";
 import ServiceCardData from "./JsonFiles/ServiceCard.json";
 import AllCardClickData from "./JsonFiles/CardClickData.json";
 const CardChangeAllData = () => {
@@ -29,18 +29,21 @@ const CardChangeAllData = () => {
     cardClickDataStor.preDefineData5
   );
 
+  // vars
+  let CardDownArrow1 = document.querySelector("#CardDownArrow1");
+  let CardDownArrow2 = document.querySelector("#CardDownArrow2");
+  let CardDownArrow3 = document.querySelector("#CardDownArrow3");
+  let CardDownArrow4 = document.querySelector("#CardDownArrow4");
+  let Defaultbtn = document.querySelector("#DefaultDataBtn");
+  let CardSection1 = document.querySelector("#Card1");
+  let CardSection2 = document.querySelector("#Card2");
+  let CardSection3 = document.querySelector("#Card3");
+  let CardSection4 = document.querySelector("#Card4");
   function DataChange(e) {
     const CheckId = e.target.id;
 
     e.preventDefault();
-    let CardDownArrow1 = document.querySelector("#CardDownArrow1");
-    let CardDownArrow2 = document.querySelector("#CardDownArrow2");
-    let CardDownArrow3 = document.querySelector("#CardDownArrow3");
-    let CardDownArrow4 = document.querySelector("#CardDownArrow4");
-    let CardSection1 = document.querySelector("#Card1");
-    let CardSection2 = document.querySelector("#Card2");
-    let CardSection3 = document.querySelector("#Card3");
-    let CardSection4 = document.querySelector("#Card4");
+   
     if (CheckId == "Card1") {
       setImgChangeState(cardClickDataStor.firstImg);
       setMainHeading(cardClickDataStor.MainHeading1);
@@ -135,8 +138,44 @@ const CardChangeAllData = () => {
       CardSection3.classList.add("CardSection");
       CardSection3.classList.remove("SecundCardSection");
     }
+    Defaultbtn.style = "display:table";
   }
-  return{ DataChange, cardData, mainHeading, imgChangeState, cardArticleData1, cardArticleData2, cardArticleData3, cardArticleData4, cardArticleData5 }
+  function DefaultData() {
+    Defaultbtn.style = "display:none";
+    setImgChangeState(cardClickDataStor.preDefineImg);
+    setMainHeading(cardClickDataStor.preDefineDataHeading1);
+    setCardArticleData1(cardClickDataStor.preDefineData1);
+    setCardArticleData2(cardClickDataStor.preDefineData2);
+    setCardArticleData3(cardClickDataStor.preDefineData3);
+    setCardArticleData4(cardClickDataStor.preDefineData4);
+    CardDownArrow1.style = "display:none;";
+    CardDownArrow2.style = "display:none;";
+    CardDownArrow3.style = "display:none;";
+    CardDownArrow4.style = "display:none;";
+
+    // Animation Effect Validation
+    CardSection1.classList.add("CardSection");
+    CardSection1.classList.remove("SecundCardSection");
+    CardSection2.classList.add("CardSection");
+    CardSection2.classList.remove("SecundCardSection");
+    CardSection3.classList.add("CardSection");
+    CardSection3.classList.remove("SecundCardSection");
+    CardSection4.classList.add("CardSection");
+    CardSection4.classList.remove("SecundCardSection");
+    console.log("hello Data click");
+  }
+  return {
+    DataChange,
+    cardData,
+    mainHeading,
+    imgChangeState,
+    cardArticleData1,
+    cardArticleData2,
+    cardArticleData3,
+    cardArticleData4,
+    cardArticleData5,
+    DefaultData,
+  };
 };
 
 export default CardChangeAllData;

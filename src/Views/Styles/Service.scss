@@ -12,7 +12,26 @@
     flex-direction: column;
     align-items: center;
     padding: 50px;
-
+    #DefaultDataBtn{
+        color:#fff;
+        padding: 10px 25px;
+        border: none;
+        outline:none;
+        border-radius: 15px;
+        background-color: var(--Blue);
+        transition: 0.6s;
+        position: relative;
+        bottom: 50px;
+        display: none;
+    }
+    #DefaultDataBtn:hover{
+        color:var(--Blue);
+        padding: 10px 25px;
+        border: none;
+        outline:none;
+        border-radius: 15px;
+        background-color:#000;
+    }
     .Services_Headings {
         width: 100%;
         height: auto;

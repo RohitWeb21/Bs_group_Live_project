@@ -14,6 +14,7 @@ const Service = () => {
     cardArticleData3,
     cardArticleData4,
     cardArticleData5,
+    DefaultData,
   } = CardChangeAllData();
 
   return (
@@ -48,9 +49,12 @@ const Service = () => {
                 <i className="fas fa-caret-down " id={res.DownArrow}></i>
               </div>
             );
-          })}
-        </section>
 
+          })}
+
+         
+        </section>
+        <button onClick={DefaultData} id="DefaultDataBtn">Back</button>
         {/* Article section start  */}
 
         <section className="main_article_section">
@@ -71,6 +75,7 @@ const Service = () => {
                 <br />
                 <br />
                 {cardArticleData5}
+                <button onClick={DefaultData} id="DefaultDataBtn">Back</button>
               </p>
             </article>
           </section>
