@@ -20,8 +20,8 @@ function App() {
       <WorkingProg />
       <ChooseUs />
       <RecentWorks />
-      <Career />
       <ContactUs />
+      <Career />
       <Footer />
     </>
   );
