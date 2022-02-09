@@ -42,10 +42,14 @@
                 div {
                     width: 100%;
                     overflow: hidden;
-
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
                     img {
                         width: 80%;
                         transition: .6s;
+                    
                     }
 
                     button {

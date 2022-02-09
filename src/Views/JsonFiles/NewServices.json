@@ -29,21 +29,21 @@
       "Data4": "Our web designers will plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips. And, we will take full responsibility for creating the best design and layout of a website or web pages for you."
     },
     {
-      "image": "./images/brand1.png",
+      "image": "./images/Brand.png",
       "id": "BrandManagement",
       "Heading": "Brand Management",
       "Data1": "What you show to your customers is how they will perceive your brand. To attract and retain customers, it is necessary to build a brand image and brand value. We help you to create and manage the reputation of your brand. All your needs related to your brand will be fulfilled here. ",
       "Data2": "From handling your digital marketing profile, curating your designing needs, delivering any packaging requirements to running campaigns for your brand, we do everything for you at BS Group. Tapping the market by providing specific marketing services during special occasions or festivities also come under our brand management services. ",
       "Data3": "Take our word, you can be relieved once you hand over your brand to us. We'll look after it with utmost care."
     },
-    {
+    {"image": "./images/hosting.png",
       "id": "DomainMaintenance",
       "Heading": "Domain Maintenance & Website Hosting",
       "Data1": "In recent times, this fast-moving world has shifted and got accustomed to the online mode. So for your website to shine and stand out from the crowd, it's vital to note how a brand operates its website. These technicalities are the base that can take your business to heights",
       "Data2": "This might confuse those just starting but fear not, and we are here for you. We are here to provide refined services from experts in website hosting and domain maintenance. Starting from scratch, we design the draft for your website, buy a domain for your website visibility, and search for the appropriate server to link the domain; last but not least, we also provide a full-fledged maintenance service. In addition, we provide both drag -and- drop & coding facilities as our clients prefer.",
       "Data3": "We are not done yet! We also help in maintaining the website. We know and recognize how essential these services are for a company's online presence. We, therefore, provide flexibility to our customers to curate these services according to their requirements, and we deliver these with great attention to detail."
     },
-    {
+    {"image": "./images/Seo.png",
       "id": "SearchEngineOptimization",
       "Heading": "Search Engine Optimization",
       "Data1": "Online business is booming! New ideas and companies are being created every single day. There is everyone selling everything on the internet today. But what do you do to make yourself stand out? What do you do so that the consumers choose your brand over everyone else?",
@@ -51,7 +51,7 @@
       "Data3": "Well, we use specific keywords with high interaction and engagement skills to improve your website’s ranking. In addition, we deliver services in both organic and paid domains. Regular maintenance of the SEO ranking also forms a part of our services.",
       "Data4": "We also have individual departments for each and every service, as well as specialists in that domain who deliver the work according to your requirements. We leave no scope for delay or inconvenience."
     },
-    {
+    {"image": "./images/Content.png",
       "id": "ContentCreation",
       "Heading": "Content Creation",
       "Data1": "Are you into making new content every day? Really let your mind speak with your dreams and ideas? ",
