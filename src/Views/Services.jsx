@@ -17,7 +17,7 @@ const Services = () => {
         <h3>what we offer</h3>
       </section>
       <div className="container">
-        <section className="d-flex flex-wrap">
+        <section className="row">
           <figure className="col-lg-6 col-sm-12">
             <img src={ServicesImg} alt="Services" />
           </figure>
@@ -32,7 +32,7 @@ const Services = () => {
                   >
                     {res.Heading}
                   </button>
-                  {console.log(res.img)}
+                  
                   <img
                     src={res.image}
                     id={res.id}

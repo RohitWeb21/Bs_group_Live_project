@@ -29,6 +29,9 @@
 
         section {
             figure {
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 img {
                     width: 80%;
                 }
@@ -38,9 +41,10 @@
 
                 div {
                     width: 100%;
+                    overflow: hidden;
 
                     img {
-                        width: 100%;
+                        width: 80%;
                         transition: .6s;
                     }
 
@@ -82,14 +86,13 @@
                     }
 
                     button:hover::before {
-                        width: 100%;
-                        height: 100%;
+                       
                         position: absolute;
                         left: 0%;
                         top: 0px;
                     }
 
-                    button:checked {}
+                    // button:checked {}
                 }
 
 
