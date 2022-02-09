@@ -4,14 +4,11 @@ import React, { useState } from "react";
 // import Images
 import ServicesImg from "../images/Services.png";
 
-// import Smm from "../images/Smm2.png";
-// import Smm from "../images/Smm2.png";
-// import Smm from "../images/Smm2.png";
 const Services = () => {
   const [allData, setAllData] = useState(AllCardClickData.CardClickDataMore);
   //   console.log(allData)
   return (
-    <section className="MainServices">
+    <section className="MainServices" id="Service">
       <section className="Services_Headings">
         <h2>service</h2>
         <h3>what we offer</h3>
@@ -24,7 +21,14 @@ const Services = () => {
           <article className="col-lg-6 col-sm-12">
             {allData.map((res, index) => {
               return (
-                <div key={index}>
+                <div
+                  key={index}
+                  data-aos="fade-up"
+                  data-aos-offset="100"
+                  data-aos-delay="50"
+                  data-aos-duration="400"
+                  data-aos-easing="ease-in-out"
+                >
                   <button
                     className="ShowData"
                     data-bs-toggle="collapse"
@@ -32,7 +36,7 @@ const Services = () => {
                   >
                     {res.Heading}
                   </button>
-                  
+
                   <img
                     src={res.image}
                     id={res.id}

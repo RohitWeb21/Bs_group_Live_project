@@ -1,12 +1,9 @@
 import "./navbarStyle.css";
 import React, { useState } from "react";
 import logo from "../images/BsLogo.png";
-// import LogoVideo from "../Videos/LogoVideo.mp4";
 import Logo2Video from "../Videos/Logo2Video.webp";
-import logoGif from "../Videos/logoGif.gif";
 
 const Navbar = () => {
-  // document.getElementById('vid').play();
   const [navButton, setNavButton] = useState("fas fa-bars");
   const toggleMenu = () => {
     document.querySelector(".Main_menu").classList.toggle("ToggleClass");
@@ -23,23 +20,20 @@ const Navbar = () => {
     console.log("hello");
   };
 
-
-
-  // video play Js 
-
-  // window.onload=document.querySelector(".logo").play();
   return (
     <>
       <header className="header mainHeight">
         <nav className="navbar">
-          <img src={Logo2Video} className="logo" alt="Bs Group Logo" />
-        
-        {/* <video src={Logo2Video} autoPlay className="logo" /> */}
-
-          <div className="Main_menu">
+          <img
+            src={Logo2Video}
+            className="logo"
+            alt="Bs Group Logo"
+            data-aos="fade-right"
+          />
+          <div className="Main_menu" data-aos="fade-left">
             <a href="#LandingPage">Home</a>
-            <a href="#About">About</a>
             <a href="#Service">Service</a>
+            <a href="#About">About</a>
             <a href="#Portfolio">Portfolios</a>
             <a href="#Career">Career</a>
             <a href="#Contact">Contact </a>
