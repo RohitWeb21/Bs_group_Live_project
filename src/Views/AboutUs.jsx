@@ -14,6 +14,7 @@ const AboutUs = () => {
             <h2 className="col-lg-8 col-md-12">
               We Are Here For Business Solution Ideas
             </h2>
+            
             <p className="col-lg-10 col-md-12">
               BS Group works on brand core values which make a brand unique,
               superior, differentiated, valuable and successful. We are
