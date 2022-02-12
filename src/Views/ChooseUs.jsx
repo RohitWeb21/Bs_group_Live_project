@@ -1,4 +1,5 @@
 import "./Styles/ChooseUs.scss";
+import BsVideo from "../Videos/BsVideo.mp4";
 const ChooseUs = () => {
   return (
     <>
@@ -39,32 +40,9 @@ const ChooseUs = () => {
             <button className="DiscoverMoreBtn">Discover More</button>
           </article>
           <figure className="col-lg-5 col-sm-12">
-            <div className="d-flex flex-wrap justify-content-center">
-              <div className="col-lg-5 col-sm-12">
-                <img
-                  className="col-lg-12 col-sm-6 mt-4"
-                  src="https://mobileecosystemforum.com/wp-content/uploads/2021/11/61290d13623acf8451a5683d_reshot-illustration-digital-marketing-team-G73CP2VE8M-p-1080.png"
-                  alt=" Videos Images"
-                />
-                <img
-                  className="col-lg-12 col-sm-6 mt-4"
-                  src="https://mobileecosystemforum.com/wp-content/uploads/2021/11/61290d13623acf8451a5683d_reshot-illustration-digital-marketing-team-G73CP2VE8M-p-1080.png"
-                  alt=" Videos Images"
-                />
-              </div>
-              <div className="col-lg-5 col-sm-12 ">
-                <img
-                  className="col-lg-12 col-sm-6 mt-4"
-                  src="https://mobileecosystemforum.com/wp-content/uploads/2021/11/61290d13623acf8451a5683d_reshot-illustration-digital-marketing-team-G73CP2VE8M-p-1080.png"
-                  alt=" Videos Images"
-                />
-                <img
-                  className="col-lg-12 col-sm-6 mt-4"
-                  src="https://mobileecosystemforum.com/wp-content/uploads/2021/11/61290d13623acf8451a5683d_reshot-illustration-digital-marketing-team-G73CP2VE8M-p-1080.png"
-                  alt=" Videos Images"
-                />
-              </div>
-            </div>
+            <video controls autoplay>
+              <source src={BsVideo} type="video/mp4" />
+            </video>
           </figure>
         </section>
       </section>

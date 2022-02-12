@@ -3,13 +3,14 @@
 :root {
     --peraSize: .9rem;
     --peraFontWeight: 600;
+    --Purpal: #9005bf;
 }
 
 .RecentWorksMain {
- margin-bottom: 80px;
+    margin-bottom: 80px;
 
     article {
-       
+
         h2 {
             color: var(--Blue);
             font-size: 3rem;
@@ -30,164 +31,96 @@
     }
 }
 
-.carousel-inner{
-    height: 80vh;
+.carousel-inner {
+    height: 100vh;
 }
 
 
 .card1,
 .card2,
 .card3 {
-    height: 80vh;
+    height: 100vh;
     padding-bottom: 80px;
     margin-bottom: 80px;
     border-radius: 25px;
+
+    img {
+        margin: 50px 0px 0px 10%;
+        display: inline-block;
+        width: 100px;
+    }
+
+    div {
+
+        position: absolute;
+        bottom: 20px;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        p {
+            width: 80%;
+            text-align: center;
+
+
+        }
+
+        .DiscoverMoreBtn {
+            padding: 8px 15px;
+            text-decoration: none;
+            color: #fff;
+            border: none;
+            outline: none;
+            background-color: var(--buttonColor);
+            text-align: center;
+            font-weight: 700;
+            border-radius: 25px;
+            font-size: 1.3rem;
+            text-align: center;
+        }
+
+        .DiscoverMoreBtn:hover {
+            color: #000000;
+            background-color: var(--Blue);
+        }
+    }
 }
 
 .card1 {
-    background: url("https://media.istockphoto.com/photos/global-network-concept-picture-id1005148228?k=20&m=1005148228&s=612x612&w=0&h=rRLyMDiIyJMlQS9tIu8t8RS6LrB0lIJc5jnksTZi9ic=");
+    background: url("../../images/figtree.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     width: 100%;
 
-    h3 {
-        margin: 50px 0px 0px 10%;
-        color: #fff;
+    p {
+
+        color: #106343;
+
     }
-
-    div {
-        position: absolute;
-        bottom: 20px;
-        
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        p {
-            width: 80%;
-            text-align: center;
-            color: #ffffff;
-
-        }
-
-        .DiscoverMoreBtn {
-            padding: 8px 15px;
-            text-decoration: none;
-            color: #fff;
-            border: none;
-            outline: none;
-            background-color: var(--buttonColor);
-            text-align: center;
-            font-weight: 700;
-            border-radius: 25px;
-            font-size: 1.3rem;
-           text-align: center;
-        }
-
-        .DiscoverMoreBtn:hover {
-           color: #000000;
-           background-color: var(--Blue);
-
-
-        }
-    }
-
 }
 
 .card2 {
-    background: url("https://media.istockphoto.com/photos/digital-marketing-concept-online-advertisement-picture-id1284549946?b=1&k=20&m=1284549946&s=170667a&w=0&h=DaMSS8u0nwYARehKE5DoEdjTPy96UQJ_B3LMRWnhBUY=");
+    background: url("../../images/Strong.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    h3 {
-        margin: 50px 0px 0px 10%;
-        color: #fff;
-    }
-
-    div {
-        position: absolute;
-        bottom: 20px;
-        
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        p {
-            width: 80%;
-            text-align: center;
-            color: #ffffff;
-
-        }
-
-        .DiscoverMoreBtn {
-            padding: 8px 15px;
-            text-decoration: none;
-            color: #fff;
-            border: none;
-            outline: none;
-            background-color: var(--buttonColor);
-            text-align: center;
-            font-weight: 700;
-            border-radius: 25px;
-            font-size: 1.3rem;
-           text-align: center;
-        }
-
-        .DiscoverMoreBtn:hover {
-           color: #000000;
-           background-color: var(--Blue);
-
-
-        }
+    p {
+        color: #1583D6;
     }
 }
 
 .card3 {
-    background: url("https://media.istockphoto.com/photos/businessman-draws-increase-arrow-graph-corporate-future-growth-year-picture-id1333810802?b=1&k=20&m=1333810802&s=170667a&w=0&h=xGeydMpkTI42HVNQppcN4nYPES-5GyTh9oCd7mZwWU8=");
+    background: url("../../images/Gurukul.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    h3 {
-        margin: 50px 0px 0px 10%;
-        color: #fff;
-    }
-
-    div {
-        position: absolute;
-        bottom: 20px;
-        
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        p {
-            width: 80%;
-            text-align: center;
-            color: #ffffff;
-
-        }
-
-        .DiscoverMoreBtn {
-            padding: 8px 15px;
-            text-decoration: none;
-            color: #fff;
-            border: none;
-            outline: none;
-            background-color: var(--buttonColor);
-            text-align: center;
-            font-weight: 700;
-            border-radius: 25px;
-            font-size: 1.3rem;
-           text-align: center;
-        }
-
-        .DiscoverMoreBtn:hover {
-           color: #000000;
-           background-color: var(--Blue);
-
-
-        }
+    p {
+        color: #FED45A;
     }
 }
 
@@ -205,7 +138,7 @@
     justify-content: center !important;
     align-items: center !important;
     background-position-x: 1rem;
-  
+
 }
 
 .carousel-control-prev:hover .carousel-control-prev-icon {
@@ -225,7 +158,7 @@
     background-color: rgba(247, 247, 247, 0.466);
     border-radius: 50%;
     background-position-x: 1.5rem;
-   
+
 }
 
 .carousel-control-next:hover .carousel-control-next-icon {
@@ -233,13 +166,34 @@
     background-color: rgb(247, 247, 247);
     opacity: 1;
 }
-@media(max-width:700px){
+
+@media(max-width:700px) {
+    .carousel-inner {
+        height: 70vh;
+    }
+
+
+    .card1,
+    .card2,
+    .card3 {
+        height: 70vh;
+        padding-bottom: 80px;
+        margin-bottom: 80px;
+        border-radius: 25px;
+
+        img {
+
+            display: none;
+        }
+    }
+
     .carousel-control-prev-icon {
         width: 4rem;
         height: 4rem;
-       border-radius: 10px;
-       background-position-x: none;
+        border-radius: 10px;
+        background-position-x: none;
     }
+
     .carousel-control-next-icon {
         width: 4rem;
         height: 4rem;

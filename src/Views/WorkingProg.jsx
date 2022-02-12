@@ -14,11 +14,11 @@ const WorkingProg = () => {
           minim venial, quia nostrum exercitation ullages labor's nisi ut
           aliquot ex ea commode consequent
         </p>
-        <section className="container Designclass">
+        <section className=" Designclass">
           {workCardData.map((res, index) => {
             return (
              
-                <section className="col-lg-3 col-md-6 col-sm-12 WorkingCardMainDesign p-3" key={index}>
+                <section className="col-lg-2 col-md-6 col-sm-12 WorkingCardMainDesign " key={index}>
                   <img src={res.image} />
                   <h2>{res.cardName}</h2>
                   <p>{res.tittle}</p>

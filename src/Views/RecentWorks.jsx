@@ -1,4 +1,7 @@
 import "./Styles/RecentWork.scss";
+import GurukulLogo from "../images/GurukulLogo1.png"
+import figtreelogo from "../images/figtreelogo.png"
+import StrongLogo from "../images/StrongLogo.png"
 function RecentWorks() {
   return (
     <>
@@ -19,7 +22,8 @@ function RecentWorks() {
           >
             <div className="carousel-inner">
               <div className="carousel-item active card1">
-                <h3>Company Name</h3>
+              
+                <img src={figtreelogo} alt="figtree logo" />
                 <div>
                 <p >
                   Company Lorem ipsum, dolor sit amet consectetur adipisicing
@@ -30,7 +34,7 @@ function RecentWorks() {
                 </div>
               </div>
               <div className="carousel-item card2">
-              <h3>Company Name</h3>
+              <img src={StrongLogo} alt="Gurukul Logo"  />
                 <div>
                 <p >
                   Company Lorem ipsum, dolor sit amet consectetur adipisicing
@@ -41,7 +45,7 @@ function RecentWorks() {
                 </div>
               </div>
               <div className="carousel-item card3">
-              <h3>Company Name</h3>
+              <img src={GurukulLogo} alt="Gurukul Logo"  />
                 <div>
                 <p >
                   Company Lorem ipsum, dolor sit amet consectetur adipisicing

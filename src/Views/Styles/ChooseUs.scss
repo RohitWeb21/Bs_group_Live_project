@@ -13,6 +13,7 @@
     padding-bottom: 80px;
 
     article {
+        padding: 0px 25px;
         h2 {
             color: var(--Blue);
         }
@@ -65,31 +66,17 @@
         }
 
     }
-
-    figure {
-        margin-top: 30px;
-    }
-
-    figure>div>div:nth-child(2) {
-        margin-top: 50px;
+    figure{
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
     }
-    figure>div>div:nth-child(1) {
-       
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    figure video{
+       width: 100%;
+     
     }
-    figure>div>div:nth-child(2) img {
-      width: 80%;
-    }
-    figure>div>div:nth-child(1) img {
-      width: 80%;
-    }
+
+ 
 }
 
 @media(max-width:"700px") {
