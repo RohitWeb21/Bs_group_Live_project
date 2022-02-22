@@ -1,7 +1,7 @@
 import "./Styles/RecentWork.scss";
-import GurukulLogo from "../images/GurukulLogo1.png"
-import figtreelogo from "../images/figtreelogo.png"
-import StrongLogo from "../images/StrongLogo.png"
+import GurukulLogo from "../images/GurukulLogo1.png";
+import figtreelogo from "../images/figtreelogo.png";
+import StrongLogo from "../images/StrongLogo.png";
 function RecentWorks() {
   return (
     <>
@@ -22,39 +22,27 @@ function RecentWorks() {
           >
             <div className="carousel-inner">
               <div className="carousel-item active card1">
-              
                 <img src={figtreelogo} alt="figtree logo" />
                 <div>
-                <p >
-                  Company Lorem ipsum, dolor sit amet consectetur adipisicing
-                  elit. Voluptatum aperiam officia voluptates culpa. Company
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                </p>
-                <button className="DiscoverMoreBtn">Discover More</button>
+                  <button className="DiscoverMoreBtn">Discover More</button>
                 </div>
               </div>
               <div className="carousel-item card2">
-              <img src={StrongLogo} alt="Gurukul Logo"  />
+                <img src={StrongLogo} alt="Gurukul Logo" />
                 <div>
-                <p >
-                  Company Lorem ipsum, dolor sit amet consectetur adipisicing
-                  elit. Voluptatum aperiam officia voluptates culpa. Company                 
-                  aperiam officia voluptates culpa.
-                </p>
-                <button className="DiscoverMoreBtn">Discover More</button>
+                  <button className="DiscoverMoreBtn">Discover More</button>
                 </div>
               </div>
               <div className="carousel-item card3">
-              <img src={GurukulLogo} alt="Gurukul Logo"  />
+                <img src={GurukulLogo} alt="Gurukul Logo" />
                 <div>
-                <p >
-                  Company Lorem ipsum, dolor sit amet consectetur adipisicing
-                  elit. Voluptatum aperiam officia voluptates culpa. Company
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Voluptatum 
-                  aperiam officia voluptates culpa.
-                </p>
-                <button className="DiscoverMoreBtn">Discover More</button>
+                  <button className="DiscoverMoreBtn">Discover More</button>
+                </div>
+              </div>
+              <div className="carousel-item card4">
+                <img src={GurukulLogo} alt="Gurukul Logo" />
+                <div>
+                  <button className="DiscoverMoreBtn">Discover More</button>
                 </div>
               </div>
             </div>

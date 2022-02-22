@@ -1,14 +1,57 @@
-   
-    @font-face {
-        font-family: 'Muli_Black';
-        font-style: normal;
-        font-weight: normal;
-        src:url('./fontsFiles/Muli-Black.ttf') ;
-        }
-        
+@font-face {
+  font-family: "Muli_Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fontsFiles/Muli-Black.ttf");
+}
 
+@font-face {
+  font-family: "Muli_Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fontsFiles/Muli-Bold.ttf");
+}
 
-body{
- font-family: Muli_Black,Verdana, Geneva, Tahoma, sans-serif ;
- 
+@font-face {
+  font-family: "Muli-ExtraLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fontsFiles/Muli-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Muli-ExtraLightItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fontsFiles/Muli-ExtraLightItalic.ttf");
+}
+
+@font-face {
+  font-family: "Muli-Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fontsFiles/Muli-Italic.ttf");
+}
+@font-face {
+  font-family: "Muli-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fontsFiles/Muli-Light.ttf");
+}
+@font-face {
+  font-family: "Muli-LightItalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fontsFiles/Muli-LightItalic.ttf");
+}
+@font-face {
+  font-family: "Muli-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fontsFiles/Muli-Regular.ttf");
+}
+
+body {
+  font-family: Muli_Black, Muli_Bold, Muli-ExtraLight, Muli-ExtraLightItalic,
+    Muli-Italic, Muli-Light, Muli-LightItalic, Muli-Regular;
 }

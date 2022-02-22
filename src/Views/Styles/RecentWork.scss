@@ -38,7 +38,8 @@
 
 .card1,
 .card2,
-.card3 {
+.card3,
+.card4 {
     height: 100vh;
     padding-bottom: 80px;
     margin-bottom: 80px;
@@ -51,20 +52,13 @@
     }
 
     div {
-
+        width: 100%;
         position: absolute;
         bottom: 20px;
-
         display: flex;
         align-items: center;
         flex-direction: column;
 
-        p {
-            width: 80%;
-            text-align: center;
-
-
-        }
 
         .DiscoverMoreBtn {
             padding: 8px 15px;
@@ -87,19 +81,13 @@
     }
 }
 
+
+
 .card1 {
     background: url("../../images/figtree.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    width: 100%;
-
-    p {
-
-        color: #106343;
-
-    }
 }
 
 .card2 {
@@ -107,10 +95,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    p {
-        color: #1583D6;
-    }
 }
 
 .card3 {
@@ -118,10 +102,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
-    p {
-        color: #FED45A;
-    }
+.card4 {
+    background: url("../../images/Ipp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .carousel-control-prev-icon {

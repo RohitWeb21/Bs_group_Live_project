@@ -40,7 +40,7 @@ const ChooseUs = () => {
             <button className="DiscoverMoreBtn">Discover More</button>
           </article>
           <figure className="col-lg-5 col-sm-12">
-            <video controls autoplay>
+            <video controls autoPlay>
               <source src={BsVideo} type="video/mp4" />
             </video>
           </figure>

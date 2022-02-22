@@ -6,12 +6,16 @@ import WorkingProg from "./Views/WorkingProg";
 import ChooseUs from "./Views/ChooseUs";
 import RecentWorks from "./Views/RecentWorks";
 import ContactUs from "./Views/ContactUS";
-import Footer from "./Components/Footer";
 import Career from "./Views/Career";
 import Services from "./Views/Services";
+// import CareerContactForm from "./Views/CareerContactForm";
+import Footer from "./Components/Footer";
+import CareerInnerPage from "./Views/CareerInnerPage";
+
 // Aos Animation
 import AOS, { init } from "aos";
 import "aos/dist/aos.css";
+
 function App() {
   AOS.init({
     offset: 100,
@@ -30,9 +34,12 @@ function App() {
       <RecentWorks />
       <ContactUs />
       <Career />
+      {/* <CareerContactForm /> */}
+      <CareerInnerPage/>
       <Footer />
     </>
   );
 }
 
 export default App;
+// https://restcountries.com/v3.1/all

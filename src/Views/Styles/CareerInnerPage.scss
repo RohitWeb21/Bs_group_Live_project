@@ -1,0 +1,218 @@
+.CareerFormInnerMain {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(160deg, #54c7f2, #418ccb);
+  font-size: 1rem;
+  font-family: Muli_Bold;
+  padding: 50px 0px;
+
+  .CareerInnerDiv {
+    width: 50%;
+    height: auto;
+    background-color: #fff;
+    padding: 30px 20px 30px 40px;
+
+    .CareerForm {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+
+      .Name,
+      .Contect,
+      .address {
+        width: 100%;
+      }
+      .FLname,
+      .ContectInnerDiv {
+     
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+        input {
+          width: 250px;
+          height: 35px;
+          border: none;
+          background-color: transparent;
+          border-bottom: 2px solid #b6b6b6;
+          outline: none;
+          padding: 0px;
+          margin: 0px;
+        }
+        p{
+            padding: 0px;
+            margin: 0px;
+        }
+      }
+      .ApplyPositionSection {
+        width: 100%;
+        padding: 20px 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .ApplyingPosition {
+          width: 90%;
+          height: 35px;
+          border: none;
+          background-color: transparent;
+          border-bottom: 2px solid #b6b6b6;
+          outline: none;
+        }
+      }
+
+      .CountryCity {
+        width: 100%;
+        .Country,
+        .City {
+          width: 50%;
+          display: flex;
+          justify-content: space-around;
+          flex-direction: column;
+          select {
+            width: 80%;
+            height: 35px;
+            border: none;
+            background-color: transparent;
+            border-bottom: 2px solid #b6b6b6;
+            outline: none;
+          }
+        }
+      }
+
+      .address {
+        width: 100%;
+        height: 50px !important;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        input {
+          width: 90%;
+          height: 50px;
+          border: none;
+          background-color: transparent;
+          border-bottom: 2px solid #b6b6b6;
+          outline: none;
+        }
+      }
+      .TextareaSection {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        textarea {
+          width: 90%;
+       
+          border: none;
+          background-color: transparent;
+          border-bottom: 2px solid #b6b6b6;
+          outline: none;
+        }
+      }
+      .ChooseFile {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 25px 0px;
+        .ChooseFileInnerDiv {
+          label {
+            font-family: Muli_Black;
+            margin-bottom: 10px;
+          }
+          width: 90%;
+          border: none;
+          background-color: transparent;
+          outline: none;
+        }
+      }
+      .SubmitSection{
+          button{
+            padding: 8px 15px;
+            text-decoration: none;
+            color: #fff;
+            border: none;
+            outline: none;
+            background-color: var(--buttonColor);
+            text-align: center;
+            font-weight: 700;
+            border-radius: 15px;
+            font-size: 1.3rem;
+            text-align: center;
+          }
+         button:hover{
+            color: #000000;
+            background-color: var(--Blue);
+         }
+      }
+    }
+  }
+}
+
+// mediaQuery Start
+@media (max-width: "1000px") {
+  .CareerFormInnerMain {
+    .CareerInnerDiv {
+      width: 80%;
+      height: auto;
+      background-color: #fff;
+      padding: 10px 20px;
+
+      .FLname,
+      .ContectInnerDiv {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+
+        input {
+          width: 90% !important;
+          height: 35px;
+          border: none;
+          background-color: transparent;
+          border-bottom: 2px solid #b6b6b6;
+          outline: none;
+        }
+      }
+
+      .CountryCity {
+        width: 100%;
+        padding: 20px 0px;
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+        .Country,
+        .City {
+          width: 100% !important;
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          select {
+            width: 90% !important;
+            height: 35px;
+            border: none;
+            background-color: transparent;
+            border-bottom: 2px solid #b6b6b6;
+            outline: none;
+          }
+        }
+      }
+      .TextareaSection {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        textarea {
+          width: 90%;
+        }
+      }
+    }
+  }
+}
