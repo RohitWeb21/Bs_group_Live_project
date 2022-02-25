@@ -1,19 +1,39 @@
-.CareerFormInnerMain {
+.VaryMainSection {
   width: 100%;
+  background-image: linear-gradient(160deg, #54c7f2, #418ccb);
+  .FormLeftImage {
+    padding: 0px 0px 80px 0px;
+    position: relative;
+    h2 {
+      color: #0181d9;
+      font-size: 2rem;
+      margin-top: 50px;
+    }
+    .LeftImage {
+      position: absolute;
+      bottom: 20px;
+      right: -80px;
+      z-index: 2;
+      width: 200px;
+    }
+  }
+}
+
+.CareerFormInnerMain {
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(160deg, #54c7f2, #418ccb);
+  background: transparent;
   font-size: 1rem;
   font-family: Muli_Bold;
-  padding: 50px 0px;
+  padding: 50px 0px 50px 0px;
 
   .CareerInnerDiv {
-    width: 50%;
+    width: 90%;
     height: auto;
     background-color: #fff;
-    padding: 30px 20px 30px 40px;
+    padding: 30px 20px 80px 40px;
 
     .CareerForm {
       width: 100%;
@@ -30,14 +50,13 @@
       }
       .FLname,
       .ContectInnerDiv {
-     
         display: flex;
         justify-content: space-around;
         flex-direction: column;
 
         input {
           width: 250px;
-          height: 35px;
+          height: 50px;
           border: none;
           background-color: transparent;
           border-bottom: 2px solid #b6b6b6;
@@ -45,9 +64,9 @@
           padding: 0px;
           margin: 0px;
         }
-        p{
-            padding: 0px;
-            margin: 0px;
+        p {
+          padding: 0px;
+          margin: 0px;
         }
       }
       .ApplyPositionSection {
@@ -93,7 +112,7 @@
         flex-direction: column;
         input {
           width: 90%;
-          height: 50px;
+          height: 60px;
           border: none;
           background-color: transparent;
           border-bottom: 2px solid #b6b6b6;
@@ -108,7 +127,7 @@
         margin-top: 20px;
         textarea {
           width: 90%;
-       
+
           border: none;
           background-color: transparent;
           border-bottom: 2px solid #b6b6b6;
@@ -132,31 +151,60 @@
           outline: none;
         }
       }
-      .SubmitSection{
-          button{
-            padding: 8px 15px;
-            text-decoration: none;
-            color: #fff;
-            border: none;
-            outline: none;
-            background-color: var(--buttonColor);
-            text-align: center;
-            font-weight: 700;
-            border-radius: 15px;
-            font-size: 1.3rem;
-            text-align: center;
-          }
-         button:hover{
-            color: #000000;
-            background-color: var(--Blue);
-         }
+
+      .Button {
+        padding: 8px 15px;
+        text-decoration: none;
+        color: #fff;
+        border: none;
+        outline: none;
+        background-color: var(--buttonColor);
+        text-align: center;
+        font-weight: 700;
+        border-radius: 15px;
+        font-size: 1.3rem;
+        text-align: center;
+      }
+      .Button:hover {
+        color: #000000;
+        background-color: var(--Blue);
       }
     }
   }
 }
-
+.ErrorMsg {
+  color: rgb(179, 2, 2) !important;
+  margin-top: 10px;
+}
 // mediaQuery Start
+@media (max-width: "1200px") {
+  .FormLeftImage{
+    .LeftImage {
+      position: absolute;
+      bottom: 20px;
+      right: 0px;
+      z-index: 2;
+      width: 200px;
+    }
+  }
+  .FLname,
+  .ContectInnerDiv {
+    input {
+      width: 230px !important;
+      height: 35px;
+      border: none;
+      background-color: transparent;
+      border-bottom: 2px solid #b6b6b6;
+      outline: none;
+    }
+  }
+}
+
 @media (max-width: "1000px") {
+  .FormLeftImage{
+    display: none;
+    
+  }
   .CareerFormInnerMain {
     .CareerInnerDiv {
       width: 80%;
