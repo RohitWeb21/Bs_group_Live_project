@@ -23,7 +23,7 @@ function App() {
     <>
       <Navbar />
       <Switch>
-        <Route exact path="/" component={LandingPage}></Route>
+        <Route exact path="/Bs_group_Live_project" component={LandingPage}></Route>
         <Route exact path="/service" component={Services}></Route>
         <Route exact path="/about" component={AboutUs}></Route>
         <Route exact path="/portfoilo" component={RecentWorks}></Route>
