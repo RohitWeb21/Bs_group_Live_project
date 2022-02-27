@@ -54,4 +54,7 @@
 body {
   font-family: Muli_Black, Muli_Bold, Muli-ExtraLight, Muli-ExtraLightItalic,
     Muli-Italic, Muli-Light, Muli-LightItalic, Muli-Regular;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }

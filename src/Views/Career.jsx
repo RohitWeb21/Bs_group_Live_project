@@ -1,9 +1,16 @@
+// import { Link } from "react-router-dom";
 import CareerImg from "../images/CareerImg.png";
+import CareerForm from "./CareerForm";
 import "./Styles/Career.scss";
+import Footer from "../Components/Footer"
+// import $ from "jquery";
+
 const Career = () => {
+
+
   return (
-    <>
-      <section className="MainCareer container" id="Career">
+    <><section id="MainCareerSection" className="panel">
+      <section className="MainCareer container panel " id="Career">
         <div className="d-flex flex-wrap">
           <article className="col-lg-6 col-sm-12">
             <div>
@@ -23,18 +30,22 @@ const Career = () => {
                 <br />
                 We believe in adopting a wide horizon of experience and
                 exploiting our skills to the fullest potential for a holistic
-                development and overall betterment
+                development and overall betterment.
               </p>
             </div>
           </article>
           <figure className="col-lg-6 col-sm-12">
             <img src={CareerImg} alt="Career Img" />
           </figure>
-          <a href="#" className="SeeMore">
+          {/* <Link to="/career" className="SeeMore">
             See More{" "}
-          </a>
+          </Link> */}
         </div>
       </section>
+    <CareerForm/>
+    <Footer/>
+      </section>
+     
     </>
   );
 };

@@ -2,7 +2,7 @@ import "./navbarStyle.css";
 import React, { useState } from "react";
 import logo from "../images/BsLogo.png";
 import Logo2Video from "../Videos/Logo2Video.webp";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [navButton, setNavButton] = useState("fas fa-bars");
   const toggleMenu = () => {
@@ -31,12 +31,12 @@ const Navbar = () => {
             data-aos="fade-right"
           />
           <div className="Main_menu" data-aos="fade-left">
-            <a href="#LandingPage">Home</a>
-            <a href="#Service">Service</a>
-            <a href="#About">About</a>
-            <a href="#Portfolio">Portfolios</a>
-            <a href="#Career">Career</a>
-            <a href="#Contact">Contact </a>
+            <Link to="/">Home</Link>
+            <Link to="/service">Service</Link>
+            <Link to="/about">About</Link>
+            <Link to="/portfoilo">Portfolios</Link>
+            <Link to="/career">Career</Link>
+            <Link to="/contact">Contact </Link>
           </div>
           <div className="page_menu" onClick={toggleMenu}>
             <div className="page_menu_button">

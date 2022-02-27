@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import IndiaCities from "./JsonFiles/IndiaCities.json";
 import "./Styles/CareerInnerPage.scss";
 import LeftImage from "../images/LeftFormImage.png";
@@ -6,7 +6,7 @@ import LeftImage from "../images/LeftFormImage.png";
 // import * as yup from 'yup';
 // validation start
 
-const CareerInnerPage = () => {
+const CareerForm = () => {
   const [fileData, setFileData] = useState("");
 
   const initialState = {
@@ -174,7 +174,7 @@ const CareerInnerPage = () => {
   // }, [data])
 
   return (
-    <main className="d-flex flex-wrap  VaryMainSection">
+    <main className="d-flex flex-wrap  VaryMainSection panel ">
       <section className="col-lg-4 FormLeftImage">
         <h2 className="col-10 m-lg-5">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ea
@@ -184,7 +184,7 @@ const CareerInnerPage = () => {
       </section>
       <section className="CareerFormInnerMain col-lg-8 col-sm-12">
         <div className="CareerInnerDiv ">
-          <from className="CareerForm">
+          <form className="CareerForm" onSubmit={SubmitForm}>
             {/* First Name And Last Name Fild  */}
             <section className="Name d-flex flex-wrap col-lg-12">
               <div className="col-lg-6 col-sm-12 FLname">
@@ -241,7 +241,7 @@ const CareerInnerPage = () => {
                 name="ApplyingPosition"
                 value={ApplyingPosition}
               >
-                <option value="" selected>
+                <option value="" >
                   -- Choose Your Position --
                 </option>
                 <option value="Social Media Marketing">
@@ -272,7 +272,7 @@ const CareerInnerPage = () => {
                   value={Country}
                   onChange={countryHandel}
                 >
-                  <option selected value="">
+                  <option  value="">
                     --Choose your Country--
                   </option>
                   <option value="india">India</option>
@@ -288,7 +288,7 @@ const CareerInnerPage = () => {
                   value={City}
                   onChange={InputChangeHandel}
                 >
-                  <option selected value="">
+                  <option  value="">
                     --Choouse your Cities--
                   </option>
                   {city.map((res, index) => {
@@ -352,12 +352,12 @@ const CareerInnerPage = () => {
               type="submit"
               value="Submit"
               className="Button"
-              onClick={SubmitForm}
+            
             />
-          </from>
+          </form>
         </div>
       </section>
     </main>
   );
 };
-export default CareerInnerPage;
+export default CareerForm;

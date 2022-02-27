@@ -1,5 +1,6 @@
 import "./Styles/ChooseUs.scss";
 import BsVideo from "../Videos/BsVideo.mp4";
+
 const ChooseUs = () => {
   return (
     <>
@@ -46,6 +47,7 @@ const ChooseUs = () => {
           </figure>
         </section>
       </section>
+     
     </>
   );
 };

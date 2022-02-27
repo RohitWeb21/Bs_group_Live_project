@@ -1,109 +1,100 @@
-
-
 :root {
-    --peraSize: .9rem;
-    --peraFontWeight: 600;
+  --peraSize: 0.9rem;
+  --peraFontWeight: 600;
 }
 
 .ContactUsMain {
-    height: auto;
-    margin-bottom: 80px;
+  height: auto;
+  margin-bottom: 80px;
 
-    h2 {
-        color: var(--Blue);
-        font-size: 3rem;
-        font-weight: 700;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        text-align: center;
-        margin-bottom: 80px;
-    }
+  h2 {
+    color: var(--Blue);
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+  }
 
-    div>figure {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  div > figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    div>figure>img {
-        width: 80%;
-    }
+  div > figure > img {
+    width: 80%;
+    margin-bottom: 50px;
+  }
 
-    div>article {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
+  div > article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
-    div>article p {
-        font-size: 1.8rem;
-        font-weight: lighter;
-        color: var(--gray);
+  div > article p {
+    font-size: 1.8rem;
+    font-weight: lighter;
+    color: var(--gray);
+  }
 
+  form > div {
+    width: 100%;
+  }
+  form > div input {
+    width: 300px;
+    height: 45px;
+    text-indent: 15px;
+    border-radius: 8px;
+    position: relative;
+    left: 25px;
+  }
 
+  form > div button {
+    background-color: var(--Blue);
+    width: 50px;
+    border: none;
+    outline: none;
+    height: 45px;
+    position: relative;
+    right: 25px;
+    border-radius: 8px;
+  }
 
-    }
+  form > div button i {
+    color: #fff;
+    font-size: 1.3rem;
+  }
 
-    form>div{
-        width: 100%;
+  #Email {
+    color: #f00;
+    font-size: 1.3rem;
+    text-align: center;
+  }
 
-    }
-    form>div input {
-        width: 300px;
-        height: 45px;
-        text-indent: 15px;
-        border-radius: 8px;
-position: relative;
-left: 25px;
-        
-    }
+  #successEmail {
+    display: none;
+    font-size: 1.4rem;
+    color: var(--Blue);
+    text-align: center;
+  }
 
-    form>div button {
-        background-color: var(--Blue);
-        width: 50px;
-        border: none;
-        outline: none;
-        height: 45px;
-        position: relative;
-        right: 25px;
-        border-radius: 8px;
-    }
-
-    form>div button i {
-        color: #fff;
-        font-size: 1.3rem;
-
-    }
-
-    #Email {
-        color: #f00;
-        font-size: 1.3rem;
-        text-align: center;
-
-    }
-
-    #successEmail {
-        display: none;
-        font-size: 1.4rem;
-        color: var(--Blue);
-        text-align: center;
-
-    }
-
-    .Smile {
-        font-size: 3rem;
-        display: none;
-        color: var(--Blue);
-        margin: 0 auto;
-    }
+  .Smile {
+    font-size: 3rem;
+    display: none;
+    color: var(--Blue);
+    margin: 0 auto;
+  }
 }
 
-@media(max-width:"700px") {
-    .ContactUsMain div>article p {
-        text-align: center;
-    }
-    .ContactUsMain form >div input{
-        margin: 0 auto;
-    }
+@media (max-width: "700px") {
+  .ContactUsMain div > article p {
+    text-align: center;
+  }
+  .ContactUsMain form > div input {
+    margin: 0 auto;
+  }
 }

@@ -3,6 +3,7 @@ import "./Styles/Services.scss";
 import React, { useState } from "react";
 // import Images
 import ServicesImg from "../images/Services.png";
+import WorkingProg from "./WorkingProg";
 
 const Services = () => {
   const [allData, setAllData] = useState(AllCardClickData.CardClickDataMore);
@@ -66,6 +67,7 @@ const Services = () => {
           </article>
         </section>
       </div>
+      <WorkingProg/>
     </section>
   );
 };

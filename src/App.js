@@ -2,20 +2,16 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import LandingPage from "./Views/LandingPage";
 import AboutUs from "./Views/AboutUs";
-import WorkingProg from "./Views/WorkingProg";
-import ChooseUs from "./Views/ChooseUs";
 import RecentWorks from "./Views/RecentWorks";
 import ContactUs from "./Views/ContactUS";
 import Career from "./Views/Career";
 import Services from "./Views/Services";
-// import CareerContactForm from "./Views/CareerContactForm";
-import Footer from "./Components/Footer";
-import CareerInnerPage from "./Views/CareerInnerPage";
 
 // Aos Animation
 import AOS, { init } from "aos";
 import "aos/dist/aos.css";
-
+// import RoutePage from "./Views/RoutePage";
+import { Route, Switch } from "react-router-dom";
 function App() {
   AOS.init({
     offset: 100,
@@ -26,17 +22,17 @@ function App() {
   return (
     <>
       <Navbar />
-      <LandingPage />
-      <Services />
-      <AboutUs />
-      <WorkingProg />
-      <ChooseUs />
-      <RecentWorks />
-      <ContactUs />
-      <Career />
-      {/* <CareerContactForm /> */}
-      <CareerInnerPage/>
-      <Footer />
+      <Switch>
+        <Route exact path="/" component={LandingPage}></Route>
+        <Route exact path="/service" component={Services}></Route>
+        <Route exact path="/about" component={AboutUs}></Route>
+        <Route exact path="/portfoilo" component={RecentWorks}></Route>
+        <Route exact path="/career" component={Career}></Route>
+        <Route exact path="/contact" component={ContactUs}></Route>
+        
+      </Switch>
+
+  
     </>
   );
 }

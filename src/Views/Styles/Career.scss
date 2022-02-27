@@ -1,152 +1,141 @@
+#MainCareerSection {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(#ffffff, #1461a0);
+}
+
 .MainCareer {
-    
-    div {
-        margin: 5rem auto;
-       
-            .SeeMore {
-                padding: 8px 35px;
-                text-decoration: none;
-                color: #fff;
-                border: none;
-                outline: none;
-                background-color: var(--buttonColor);
-                text-align: center;
-                font-weight: 700;
-                border-radius: 25px;
-                font-size: 1.3rem;
-               text-align: center;
-               margin: 0 auto;
-            }
-            
-            .SeeMore:hover {
-               color: #000000;
-               background-color: var(--Blue);
-            
-            
-            }
-      
-        article {
-            
+  background-color: transparent;
+  div {
+    margin: 5rem auto;
 
-            div {
-                padding-left: 20px;
+    .SeeMore {
+      padding: 8px 35px;
+      text-decoration: none;
+      color: #fff;
+      border: none;
+      outline: none;
+      background-color: var(--buttonColor);
+      text-align: center;
+      font-weight: 700;
+      border-radius: 25px;
+      font-size: 1.3rem;
+      text-align: center;
+      margin: 0 auto;
+    }
 
-                h2:nth-child(1) {
-                    color: #573A7B;
-                    font-size: 3.5rem;
-                    text-transform: uppercase;
-                    margin: 0;
-                    padding: 0;
-                }
+    .SeeMore:hover {
+      color: #000000;
+      background-color: var(--Blue);
+    }
 
-                h2:nth-child(2) {
-                    color: #83E7F9;
-                    font-size: 4.5rem;
-                    text-transform: uppercase;
-                    margin: 0;
-                    padding: 0;
-                }
+    article {
+      div {
+        padding-left: 20px;
 
-                h2:nth-child(2)>p {
-                    display: inline-block;
-                    font-size: 2.3rem !important;
-                    color: #0181D9;
-                    border-top: 10px solid #83E7F9;
-                    border-bottom: 5px solid #83E7F9;
-                    position: relative;
-                    bottom: 5px;
-                    margin: 0;
-                    padding: 0;
-                }
-
-                h2:nth-child(3) {
-                    color: #0181D9;
-                    font-size: 5rem;
-                    margin: 0;
-                    padding: 0;
-                    text-transform: uppercase;
-                }
-
-                // h3 {
-                //     margin-top: 4rem;
-                //     border-bottom: 2px solid #83E7F9;
-                //     width: 80%;
-                   
-                // }
-                p{
-                    margin-top: 2.5rem;
-                }
-
-            }
-
+        h2:nth-child(1) {
+          color: #573a7b;
+          font-size: 3.5rem;
+          text-transform: uppercase;
+          margin: 0;
+          padding: 0;
         }
 
-        figure {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            img {
-                width: 90%
-            }
-
-            ;
+        h2:nth-child(2) {
+          color: #83e7f9;
+          font-size: 4.5rem;
+          text-transform: uppercase;
+          margin: 0;
+          padding: 0;
         }
-    }
-}
 
+        h2:nth-child(2) > p {
+          display: inline-block;
+          font-size: 2.3rem !important;
+          color: #0181d9;
+          border-top: 10px solid #83e7f9;
+          border-bottom: 5px solid #83e7f9;
+          position: relative;
+          bottom: 5px;
+          margin: 0;
+          padding: 0;
+        }
 
-//  media Query start  
-@media(max-width:"450px") {
+        h2:nth-child(3) {
+          color: #0181d9;
+          font-size: 5rem;
+          margin: 0;
+          padding: 0;
+          text-transform: uppercase;
+        }
 
-    
-    .MainCareer div .SeeMore{
-        position: relative;
-        bottom: 80px;
-    }
-    .MainCareer div article div h2:nth-child(1) {
+        // h3 {
+        //     margin-top: 4rem;
+        //     border-bottom: 2px solid #83E7F9;
+        //     width: 80%;
 
-        line-height: 4rem;
-    }
-
-    .MainCareer div article div h2:nth-child(2) {
-        font-size: 1.5rem !important;
-        line-height: .5 !important;
-    }
-
-    .MainCareer div article div h2:nth-child(2)>p {
-        display: inline-block;
-        font-size: 1.5rem !important;
-        color: #0181D9;
-        border: none !important;
-        position: relative;
-        bottom: 0px;
-
-
-    }
-
-    .MainCareer div article div h2:nth-child(3) {
-        font-size: 2.5rem !important;
-
-    }
-
-}
-
-@media(max-width:"700px") {
-    .MainCareer div {
-        margin: 1rem auto !important ;}
-    .MainCareer div article div h3 {
-        margin-top: 4rem auto;
-        border-bottom: 2px solid #83E7F9;
-        width: 100%;
-        text-align: center;
-
-    }
-    .MainCareer div figure {
-       height: 500px !important;
+        // }
+        p {
+          margin-top: 2.5rem;
+        }
       }
-    .MainCareer div figure img {
+    }
+
+    figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
         width: 90%;
       }
-      
+    }
+  }
+}
+
+//  media Query start
+@media (max-width: "450px") {
+  .MainCareer div .SeeMore {
+    position: relative;
+    bottom: 80px;
+  }
+  .MainCareer div article div h2:nth-child(1) {
+    line-height: 4rem;
+  }
+
+  .MainCareer div article div h2:nth-child(2) {
+    font-size: 1.5rem !important;
+    line-height: 0.5 !important;
+  }
+
+  .MainCareer div article div h2:nth-child(2) > p {
+    display: inline-block;
+    font-size: 1.5rem !important;
+    color: #0181d9;
+    border: none !important;
+    position: relative;
+    bottom: 0px;
+  }
+
+  .MainCareer div article div h2:nth-child(3) {
+    font-size: 2.5rem !important;
+  }
+}
+
+@media (max-width: "700px") {
+  .MainCareer div {
+    margin: 1rem auto !important ;
+  }
+  .MainCareer div article div h3 {
+    margin-top: 4rem auto;
+    border-bottom: 2px solid #83e7f9;
+    width: 100%;
+    text-align: center;
+  }
+  .MainCareer div figure {
+    height: 500px !important;
+  }
+  .MainCareer div figure img {
+    width: 90%;
+  }
 }
