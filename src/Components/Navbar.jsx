@@ -31,7 +31,7 @@ const Navbar = () => {
             data-aos="fade-right"
           />
           <div className="Main_menu" data-aos="fade-left">
-            <Link to="/">Home</Link>
+            <Link to="/Bs_group_Live_project">Home</Link>
             <Link to="/service">Service</Link>
             <Link to="/about">About</Link>
             <Link to="/portfoilo">Portfolios</Link>
