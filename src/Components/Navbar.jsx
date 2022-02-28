@@ -2,7 +2,7 @@ import "./navbarStyle.css";
 import React, { useState } from "react";
 import logo from "../images/BsLogo.png";
 import Logo2Video from "../Videos/Logo2Video.webp";
-import { Link } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 const Navbar = () => {
   const [navButton, setNavButton] = useState("fas fa-bars");
   const toggleMenu = () => {
@@ -31,12 +31,12 @@ const Navbar = () => {
             data-aos="fade-right"
           />
           <div className="Main_menu" data-aos="fade-left">
-            <Link to="/Bs_group_Live_project">Home</Link>
-            <Link to="/Bs_group_Live_project/service">Service</Link>
-            <Link to="/Bs_group_Live_project/about">About</Link>
-            <Link to="/Bs_group_Live_project/portfoilo">Portfolios</Link>
-            <Link to="/Bs_group_Live_project/career">Career</Link>
-            <Link to="/Bs_group_Live_project/contact">Contact </Link>
+            <NavLink exact={true}  activeClassName="activeClass"  to="/Bs_group_Live_project">Home</NavLink >
+            <NavLink exact={true}  activeClassName="activeClass"  to="/Bs_group_Live_project/service">Service</NavLink >
+            <NavLink exact={true}  activeClassName="activeClass"  to="/Bs_group_Live_project/about">About</NavLink >
+            <NavLink exact={true}  activeClassName="activeClass"  to="/Bs_group_Live_project/portfoilo">Portfolios</NavLink >
+            <NavLink exact={true}  activeClassName="activeClass"  to="/Bs_group_Live_project/career">Career</NavLink >
+            <NavLink exact={true}  activeClassName="activeClass"  to="/Bs_group_Live_project/contact">Contact </NavLink >
           </div>
           <div className="page_menu" onClick={toggleMenu}>
             <div className="page_menu_button">

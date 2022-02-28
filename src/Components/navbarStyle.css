@@ -21,6 +21,7 @@
     background-color: #000;
     transition: 0.3s;
     z-index: 2;
+    font-family: Muli-regular;
 }
 
 .header_height {
@@ -62,11 +63,14 @@
     left: 90px;
 }
 
-.navbar div a:hover {
+/* .navbar div a:hover {
     color: var(--Blue);
     border-bottom: 2px solid var(--Blue) !important;
+} */
+.activeClass{
+    color: var(--Blue) !important;
+    border-bottom: 2px solid var(--Blue) !important;
 }
-
 .page_menu {
     width: 40px;
     height: 40px;
@@ -86,6 +90,10 @@
 
 .page_menu_btn_add_css {
     background-color: rgba(253, 8, 8, 0.651);
+}
+.ActiveClass{
+    color: var(--Blue);
+    border-bottom: 2px solid var(--Blue) !important;
 }
 
 @media(max-width:900px) {

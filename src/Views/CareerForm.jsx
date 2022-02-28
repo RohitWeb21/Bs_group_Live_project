@@ -342,6 +342,7 @@ const CareerForm = () => {
                   name="file"
                   value={file}
                   onChange={FileHandel}
+                 
                 />
                 {errors.file && <p className="ErrorMsg">{errors.file}</p>}
               </div>

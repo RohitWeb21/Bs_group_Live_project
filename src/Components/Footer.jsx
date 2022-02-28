@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <section>
-        <div className="col-lg-4 col-md-4 col-sm-12">
+        <div className="col-lg-4  col-sm-12">
           <div>
             <img src={Logo} alt="Bs Group Logo" />
             <h4>Perfection is our Tradition</h4>
@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-5 col-md-4 col-sm-12">
+        <div className="col-lg-5 col-sm-12">
           <table>
             <tbody>
               <tr>
@@ -63,7 +63,7 @@ const Footer = () => {
             </tbody>
           </table>
         </div>
-        <div className="col-lg-3 col-md-5 col-sm-12">
+        <div className="col-lg-3  col-sm-12">
           <p>Phone Number : 011-------</p>
           <p>Email : abc@gmail.com</p>
         </div>
