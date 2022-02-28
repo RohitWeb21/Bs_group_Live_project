@@ -32,11 +32,11 @@ const Navbar = () => {
           />
           <div className="Main_menu" data-aos="fade-left">
             <Link to="/Bs_group_Live_project">Home</Link>
-            <Link to="/service">Service</Link>
-            <Link to="/about">About</Link>
-            <Link to="/portfoilo">Portfolios</Link>
-            <Link to="/career">Career</Link>
-            <Link to="/contact">Contact </Link>
+            <Link to="/Bs_group_Live_project/service">Service</Link>
+            <Link to="/Bs_group_Live_project/about">About</Link>
+            <Link to="/Bs_group_Live_project/portfoilo">Portfolios</Link>
+            <Link to="/Bs_group_Live_project/career">Career</Link>
+            <Link to="/Bs_group_Live_project/contact">Contact </Link>
           </div>
           <div className="page_menu" onClick={toggleMenu}>
             <div className="page_menu_button">

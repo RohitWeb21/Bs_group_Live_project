@@ -24,11 +24,11 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/Bs_group_Live_project" component={LandingPage}></Route>
-        <Route exact path="/service" component={Services}></Route>
-        <Route exact path="/about" component={AboutUs}></Route>
-        <Route exact path="/portfoilo" component={RecentWorks}></Route>
-        <Route exact path="/career" component={Career}></Route>
-        <Route exact path="/contact" component={ContactUs}></Route>
+        <Route exact path="/Bs_group_Live_project/service" component={Services}></Route>
+        <Route exact path="/Bs_group_Live_project/about" component={AboutUs}></Route>
+        <Route exact path="/Bs_group_Live_project/portfoilo" component={RecentWorks}></Route>
+        <Route exact path="/Bs_group_Live_project/career" component={Career}></Route>
+        <Route exact path="/Bs_group_Live_project/contact" component={ContactUs}></Route>
         
       </Switch>
 

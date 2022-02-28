@@ -36,7 +36,7 @@ const LandingPage = () => {
       </section>
       <AboutUs />
         <Services />
-        <WorkingProg />
+       
         <ChooseUs />
         <RecentWorks />
         <ContactUs />
