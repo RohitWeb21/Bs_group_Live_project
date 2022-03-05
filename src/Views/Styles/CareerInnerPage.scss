@@ -63,10 +63,15 @@
           outline: none;
           padding: 0px;
           margin: 0px;
+          
         }
         p {
-          padding: 0px;
-          margin: 0px;
+          padding: 0px !important;
+          margin: 0px !important;
+          line-height: 0;
+        }
+        .ErrorMsg2{
+          margin-top: 10px !important;
         }
       }
       .ApplyPositionSection {
@@ -117,6 +122,7 @@
           background-color: transparent;
           border-bottom: 2px solid #b6b6b6;
           outline: none;
+          padding-top: 0px;
         }
       }
       .TextareaSection {
@@ -174,7 +180,7 @@
 }
 .ErrorMsg {
   color: rgb(179, 2, 2) !important;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 // mediaQuery Start
 @media (max-width: "1200px") {

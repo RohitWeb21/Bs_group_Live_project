@@ -1,0 +1,86 @@
+.CareerCardMainSection {
+  width: 100%;
+  height: 100vh auto;
+padding-bottom: 60px;
+font-family: Muli-Regular;
+  .MainCardInner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+a{
+    text-decoration: none;
+    color: #000;
+
+    .CardInner {
+      width: 250px;
+      height: 250px;
+      position: relative;
+    
+      margin-top: 20px;
+      overflow: hidden;
+      transition: 0.6s;
+      h3 {
+        font-size: 1.5rem;
+        font-family: Muli-regular;
+        text-align: center;
+        padding-top: 15px;
+      
+      }
+      figure {
+        width: 100%;
+        height: 70%;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        img {
+          width: 100%;
+          height: 100%;
+          padding: 20px;
+        }
+      }
+    }}
+    .CardInner1{
+        background-color:#D3EFF3 ;
+    }
+     .CardInner2{
+        background-color:#EBE1D5 ;
+    }
+     .CardInner3{
+        background-color:#C8DBE7 ;
+    }
+     .CardInner4{
+        background-color:#ECE0EE ;
+    }
+     .CardInner5{
+        background-color:#C7D5DE ;
+    }
+    .CardInner6{
+        background-color:#EAC0CA ;
+    }
+   .CardInner7{
+        background-color:#F0CFC0 ;
+    }
+    .OverLay{
+        position: absolute;
+        top:100%;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.22);
+        transition: 0.6s;
+        backdrop-filter: blur(10px);
+        label{
+            padding-left: 20px;
+        }
+        p{
+            font-size: 1rem;
+            padding-left: 20px;
+        }
+    }
+  }
+  .CardInner:hover .OverLay{
+    position: absolute;
+    top:0%;
+    left: 0px;
+  } 
+}

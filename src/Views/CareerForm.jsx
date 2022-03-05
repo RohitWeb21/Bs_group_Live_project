@@ -174,7 +174,7 @@ const CareerForm = () => {
   // }, [data])
 
   return (
-    <main className="d-flex flex-wrap  VaryMainSection panel ">
+    <main className="d-flex flex-wrap  VaryMainSection panel " id="CareerForm">
       <section className="col-lg-4 FormLeftImage">
         <h2 className="col-10 m-lg-5">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ea
@@ -195,7 +195,7 @@ const CareerForm = () => {
                   value={Fname}
                   onChange={InputChangeHandel}
                 />
-                {errors.Fname && <p className="ErrorMsg">{errors.Fname}</p>}
+                {errors.Fname && <p className="ErrorMsg ErrorMsg2">{errors.Fname}</p>}
               </div>
               <div className="col-lg-6 col-sm-12 FLname">
                 <input
@@ -205,7 +205,7 @@ const CareerForm = () => {
                   value={Lname}
                   onChange={InputChangeHandel}
                 />
-                {errors.Lname && <p className="ErrorMsg">{errors.Lname}</p>}
+                {errors.Lname && <p className="ErrorMsg ErrorMsg2">{errors.Lname}</p>}
               </div>
             </section>
 
@@ -219,7 +219,7 @@ const CareerForm = () => {
                   value={Email}
                   onChange={InputChangeHandel}
                 />
-                {errors.Email && <p className="ErrorMsg">{errors.Email}</p>}
+                {errors.Email && <p className="ErrorMsg ErrorMsg2">{errors.Email}</p>}
               </div>
               <div className="col-lg-6 col-sm-12 ContectInnerDiv">
                 <input
@@ -229,7 +229,7 @@ const CareerForm = () => {
                   value={Number}
                   onChange={InputChangeHandel}
                 />
-                {errors.Number && <p className="ErrorMsg">{errors.Number}</p>}
+                {errors.Number && <p className="ErrorMsg ErrorMsg2">{errors.Number}</p>}
               </div>
             </section>
 

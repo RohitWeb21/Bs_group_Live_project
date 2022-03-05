@@ -2,6 +2,7 @@ import "./Styles/RecentWork.scss";
 import GurukulLogo from "../images/GurukulLogo1.png";
 import figtreelogo from "../images/figtreelogo.png";
 import StrongLogo from "../images/StrongLogo.png";
+import Ipp from "../images/Ipp.png"
 function RecentWorks() {
   return (
     <>
@@ -40,7 +41,7 @@ function RecentWorks() {
                 </div>
               </div>
               <div className="carousel-item card4">
-                <img src={GurukulLogo} alt="Gurukul Logo" />
+                <img src={Ipp} alt="Gurukul Logo" />
                 <div>
                   <button className="DiscoverMoreBtn">Discover More</button>
                 </div>

@@ -1,8 +1,9 @@
 // import { Link } from "react-router-dom";
-import CareerImg from "../images/CareerImg.png";
+import CareerImg from "../images/CareerImg1.png";
 import CareerForm from "./CareerForm";
 import "./Styles/Career.scss";
-import Footer from "../Components/Footer"
+import Footer from "../Components/Footer";
+import CareerCard from "./CareerFormCard";
 // import $ from "jquery";
 
 const Career = () => {
@@ -42,6 +43,7 @@ const Career = () => {
           </Link> */}
         </div>
       </section>
+      <CareerCard/>
     <CareerForm/>
     <Footer/>
       </section>
