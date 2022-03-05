@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/Bs_group_Live_project/static/css/main.21618ffb.css",
-    "main.js": "/Bs_group_Live_project/static/js/main.1b552056.js",
+    "main.css": "/Bs_group_Live_project/static/css/main.61be4c48.css",
+    "main.js": "/Bs_group_Live_project/static/js/main.45374dfc.js",
     "static/js/787.55e15f64.chunk.js": "/Bs_group_Live_project/static/js/787.55e15f64.chunk.js",
     "static/media/BsVideo.mp4": "/Bs_group_Live_project/static/media/BsVideo.4db8dabdd608d8b6bdd9.mp4",
+    "static/media/Ipp.png": "/Bs_group_Live_project/static/media/Ipp.e8b69f996335d15370bc.png",
     "static/media/figtreelogo.png": "/Bs_group_Live_project/static/media/figtreelogo.b8e63e03d88ab6172c9d.png",
     "static/media/LeftFormImage.png": "/Bs_group_Live_project/static/media/LeftFormImage.d864ffe84c711c2c9725.png",
     "static/media/HomeVector1.png": "/Bs_group_Live_project/static/media/HomeVector1.e216551b1ce9f9d336e6.png",
     "static/media/aboutUs.png": "/Bs_group_Live_project/static/media/aboutUs.d0c26b7a227600e34ffb.png",
     "static/media/Strong.jpg": "/Bs_group_Live_project/static/media/Strong.c8e9601fa452afc67e98.jpg",
+    "static/media/BM.png": "/Bs_group_Live_project/static/media/BM.a33ed929b61a31a1b82e.png",
+    "static/media/WD.png": "/Bs_group_Live_project/static/media/WD.2eb43e9bec6e5d259f2a.png",
     "static/media/GurukulLogo1.png": "/Bs_group_Live_project/static/media/GurukulLogo1.49cc48d8732e065b7b88.png",
+    "static/media/GD.png": "/Bs_group_Live_project/static/media/GD.27d7dc6b35d6ff02db51.png",
+    "static/media/CD.png": "/Bs_group_Live_project/static/media/CD.f43b766a209475d65f47.png",
     "static/media/Gurukul.jpg": "/Bs_group_Live_project/static/media/Gurukul.8be43c8ad68b0d029bca.jpg",
-    "static/media/Ipp.jpg": "/Bs_group_Live_project/static/media/Ipp.a039e4fd4d84acb8e53a.jpg",
+    "static/media/SEO.png": "/Bs_group_Live_project/static/media/SEO.486c93674ff9cad6e2d8.png",
+    "static/media/SMM.png": "/Bs_group_Live_project/static/media/SMM.5a8973d433668dfd7d7b.png",
     "static/media/Muli-Black.ttf": "/Bs_group_Live_project/static/media/Muli-Black.dbb1dc4f5176246c7cb1.ttf",
-    "static/media/CareerImg.png": "/Bs_group_Live_project/static/media/CareerImg.5031c0702ab9dea78ff7.png",
     "static/media/Muli-Italic.ttf": "/Bs_group_Live_project/static/media/Muli-Italic.3e2543162c14fa554330.ttf",
     "static/media/Muli-LightItalic.ttf": "/Bs_group_Live_project/static/media/Muli-LightItalic.6a5477fb11179a340a97.ttf",
     "static/media/Muli-Regular.ttf": "/Bs_group_Live_project/static/media/Muli-Regular.d08337b78196eb4754a0.ttf",
@@ -21,6 +26,8 @@
     "static/media/Muli-Light.ttf": "/Bs_group_Live_project/static/media/Muli-Light.26ef50addefd98335ab7.ttf",
     "static/media/Muli-ExtraLightItalic.ttf": "/Bs_group_Live_project/static/media/Muli-ExtraLightItalic.b614a10058837e3e2f25.ttf",
     "static/media/Muli-ExtraLight.ttf": "/Bs_group_Live_project/static/media/Muli-ExtraLight.6394d000a45e517d11aa.ttf",
+    "static/media/CareerImg1.png": "/Bs_group_Live_project/static/media/CareerImg1.e91e9c7df01527510e2c.png",
+    "static/media/WM.png": "/Bs_group_Live_project/static/media/WM.06175a11aa94afe945b2.png",
     "static/media/WhatSay.png": "/Bs_group_Live_project/static/media/WhatSay.bc7f7e7bb8e9f6e515d1.png",
     "static/media/Logo2Video.webp": "/Bs_group_Live_project/static/media/Logo2Video.4cc3bb500bbb44bd44af.webp",
     "static/media/LandingBack.png": "/Bs_group_Live_project/static/media/LandingBack.c8ac454509ce7f8595a9.png",
@@ -31,12 +38,12 @@
     "index.html": "/Bs_group_Live_project/index.html",
     "static/media/left.svg": "/Bs_group_Live_project/static/media/left.f3619997a928becd29fd.svg",
     "static/media/right.svg": "/Bs_group_Live_project/static/media/right.572aedcd367242464752.svg",
-    "main.21618ffb.css.map": "/Bs_group_Live_project/static/css/main.21618ffb.css.map",
-    "main.1b552056.js.map": "/Bs_group_Live_project/static/js/main.1b552056.js.map",
+    "main.61be4c48.css.map": "/Bs_group_Live_project/static/css/main.61be4c48.css.map",
+    "main.45374dfc.js.map": "/Bs_group_Live_project/static/js/main.45374dfc.js.map",
     "787.55e15f64.chunk.js.map": "/Bs_group_Live_project/static/js/787.55e15f64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21618ffb.css",
-    "static/js/main.1b552056.js"
+    "static/css/main.61be4c48.css",
+    "static/js/main.45374dfc.js"
   ]
 }
