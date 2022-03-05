@@ -1,14 +1,13 @@
 import "./Styles/WorkingProg.scss";
-// import WorkCardData from "./JsonFiles/WorkingCardData.json";
+
 import InitialProgress from "../images/InitialProgress-1.png";
 import roughSketch from "../images/roughSketch.png";
 import rawWebsite from "../images/rawWebsite.png";
 import testing from "../images/testing.png";
 import dilevey from "../images/dilevey.png";
-import { useState } from "react";
+// import { useState } from "react";
 
 const WorkingProg = () => {
-  // const [workCardData, setWorkCardData] = useState(WorkCardData.WorkingCard);
   return (
     <>
       <section className="mainWorkingSection" id="WorkingProgress">
@@ -75,18 +74,6 @@ const WorkingProg = () => {
               be provided with backend access to the website.
             </p>
           </section>
-
-          {/* {workCardData.map((res, index) => {
-            return (
-             
-                <section className="col-lg-2 col-md-6 col-sm-12 WorkingCardMainDesign " key={index}>
-                  <img src={res.image} alt="Our Working Progress"/>
-                  <h2>{res.cardName}</h2>
-                  <p>{res.tittle}</p>
-                </section>
-            
-            );
-          })} */}
         </section>
       </section>
     </>
